@@ -243,13 +243,13 @@ function Page() {
         const FRAT_ELLO = 'img/izveduvaci/398.jpg';
         const STAVI_PRAVUSTVAR  = 'img/izveduvaci/399.jpg';
         const STA_SI_MI_UKAVU_STAVILA  = 'img/izveduvaci/400.jpg';
-        const NESTO LIJEPO TREBA DA SE DESI = 'img/izveduvaci/401.jpg';
+        const NESTO_LIJEPO_TREBA_DA_SE_DESI = 'img/izveduvaci/401.jpg';
         const MJESECINA = 'img/izveduvaci/402.jpg';
-        const JEL SARAJEVO GDE JE NEKAD BILO  = 'img/izveduvaci/403.jpg';
-        const KAD ZAMIRISU JORGOVANI FT.VESNA ZMIJANAC  = 'img/izveduvaci/404.jpg';
-        const ZAR JE TO SVE STO IMAM OD TEBE  = 'img/izveduvaci/405.jpg';
-        const JA POTPUNO TRIJEZAN UMIREM  = 'img/izveduvaci/406.jpg';
-        const NE ZOVI ME NA GRIJEH = 'img/izveduvaci/407.jpg';
+        const JEL_SARAJEVO_GDE_JE_NEKAD_BILO = 'img/izveduvaci/403.jpg';
+        const KAD_ZAMIRISU_JORGOVANI_FT_VESNA_ZMIJANAC = 'img/izveduvaci/404.jpg';
+        const ZAR_JE_TO_SVE_STO_IMAM_OD_TEBE = 'img/izveduvaci/405.jpg';
+        const JA_POTPUNO_TRIJEZAN_UMIREM  = 'img/izveduvaci/406.jpg';
+        const NE_ZOVI_ME_NA_GRIJEH = 'img/izveduvaci/407.jpg';
         const NEMAM JA 18 GODINA  = 'img/izveduvaci/408.jpg';
         const KOKUZNA VREMENA  = 'img/izveduvaci/409.jpg';
         const JA SAM NA TE NAVIKO  = 'img/izveduvaci/410.jpg';
@@ -877,15 +877,86 @@ function Page() {
         const OKTOBAR_1864 = 'img/izveduvaci/601.jpg';
         const OLIVER_DRAGOJEVIC = 'img/izveduvaci/605.jpg';
         const MILADIN_SOBIC = 'img/izveduvaci/643.jpg';
-        
+        const NENO_BELAN = 'img/izveduvaci/637.jpg';
+        const MARINA_PERAZIC = 'img/izveduvaci/638.jpg';
+        const METAK = 'img/izveduvaci/639.jpg';
+        const MIKI_JEVREMOVIC = 'img/izveduvaci/640.jpg';
+        const MINEA = 'img/izveduvaci/642.jpg';
+        const MIRZINO_JATO = 'img/izveduvaci/643.jpg';
+        const INDEXI = 'img/izveduvaci/647.jpg';
+        const JADRANKA_STOJAKOVIC = 'img/izveduvaci/648.jpg';
+        const JASNA_ZLOKIC = 'img/izveduvaci/651.jpg';
+        const OLIVER_MANDIC = 'img/izveduvaci/655.jpg';
+        const OSVAJACI = 'img/izveduvaci/658.jpg';
+        const PARNI_VALJAK = 'img/izveduvaci/663.jpg';
+        const HAUSTOR = 'img/izveduvaci/686.jpg';
+        const ITD_BAND = 'img/izveduvaci/692.jpg';
+        const JADRANKA_STOJAKOVIC = 'img/izveduvaci/693.jpg';
+        const PILOTI = 'img/izveduvaci/697.jpg';
+        const PLAVI_ORKESTAR = 'img/izveduvaci/704.jpg';
+        const POSLEDNJA_IGRA_LEPTIRA = 'img/izveduvaci/710.jpg';
+        const PSIHOMODO_POP = 'img/izveduvaci/712.jpg';
+        const PRO_ARTE = 'img/izveduvaci/713.jpg';
+        const SLADJANA_MILOSEVIC = 'img/izveduvaci/714.jpg';
+        const PRLJAVO_KAZALISTE = 'img/izveduvaci/724.jpg';
+        const REGATA = 'img/izveduvaci/741.jpg';
+        const RIBLJA_CORBA  = 'img/izveduvaci/743.jpg';
+        const JOSIPA_LISAC = 'img/izveduvaci/774.jpg';
+        const IZOLDA = 'img/izveduvaci/781.jpg';
+        const SREBRENA_KRILA = 'img/izveduvaci/783.jpg';
+        const SMAK = 'img/izveduvaci/786.jpg';
+        const SRDJAN_JUL = 'img/izveduvaci/788.jpg';
+        const SREBRENA_KRILA = 'img/izveduvaci/789.jpg';
+        const SUNCANA_STRANA_ULICE = 'img/izveduvaci/790.jpg';
+        const KALIOPI = 'img/izveduvaci/791.jpg';
+        const KEMAL_MONTENO = 'img/izveduvaci/794.jpg';
+        const KERBER = 'img/izveduvaci/800.jpg';
+        const KICO_SLABINAC = 'img/izveduvaci/805.jpg';
+        const LAKI_PINGVINI = 'img/izveduvaci/807.jpg';
+        const ZDRAVKO_COLIC = 'img/izveduvaci/809.jpg';
+        const TIME = 'img/izveduvaci/823.jpg';
+        const FRKA = 'img/izveduvaci/825.jpg';
+        const TAJCI = 'img/izveduvaci/827.jpg';
+        const TEREZA_KESOVIJA = 'img/izveduvaci/831.jpg';
+        const TONY_MONTANO = 'img/izveduvaci/833.jpg';
+        const TUTTI_FRUTTI = 'img/izveduvaci/834.jpg';
+        const VAJTA = 'img/izveduvaci/836.jpg';
+        const VALENTINO = 'img/izveduvaci/838.jpg';
+        const VIDEOSEX = 'img/izveduvaci/840.jpg';
+        const YU_GRUPA = 'img/izveduvaci/842.jpg';
+        const VJESTICE = 'img/izveduvaci/843.jpg';
+        const ZANA = 'img/izveduvaci/844.jpg';
+        const YU_ROCK_MISIJA = 'img/izveduvaci/850.jpg';
+        const ZABRANJENO_PUSENJE = 'img/izveduvaci/851.jpg';
+        const SREBRNA_KRILA = 'img/izveduvaci/867.jpg';
+        const STIJENE = 'img/izveduvaci/868.jpg';
+        const TIFA = 'img/izveduvaci/870.jpg';
+        const VIKTORIJA = 'img/izveduvaci/877.jpg';
+        const VLADO_KALEMBER = 'img/izveduvaci/882.jpg';
+        const XENIA = 'img/izveduvaci/883.jpg';
+        const VAN_GOGH = 'img/izveduvaci/855.jpg';
+        const U_SKRIPCU = 'img/izveduvaci/893.jpg';
+        const ZELJKO_BEBEK = 'img/izveduvaci/925.jpg';
+        const ZLATKO_PEJAKOVIC = 'img/izveduvaci/931.jpg';
+        const ITD_BAND = 'img/izveduvaci/932.jpg';
+        const NEKI_TO_VOLE_VRUCE = 'img/izveduvaci/933.jpg';
+        const RIVA = 'img/izveduvaci/940.jpg';
+        const ARSEN_DEDIC = 'img/izveduvaci/941.jpg';
+        const JAKARTA = 'img/izveduvaci/943.jpg';
+        const DRAGAN_STOJNIC = 'img/izveduvaci/949.jpg';
+        const BOLERO = 'img/izveduvaci/950.jpg';
+        const OSMI_PUTNIK = 'img/izveduvaci/952.jpg';
+        const SEVERINA = 'img/izveduvaci/955.jpg';
+        const BOBA_STEFANOVIC = 'img/izveduvaci/956.jpg';
+        const IBRICA_JUSIC = 'img/izveduvaci/961.jpg';
+        const LETECI_ODRED = 'img/izveduvaci/963.jpg';
+        const MERLIN = 'img/izveduvaci/964.jpg';
+        const PEDJA_D_BOY = 'img/izveduvaci/965.jpg';
+        const POSLEDNJA_IGRA_LEPTIRA = 'img/izveduvaci/966.jpg';
+        const 
 
-        //
-        // ДОВРШИ ГИ СИТЕ ДРУГИ ИЗВЕДУВАЧИ
-        //
 
         // треба да се стави препознавање на песна и промена во текст на DOM
-
-    
 
         var artistRadio = info.artist.replace(/&apos;/g, '\'');
         if (artistRadio == 'FRATELLO') {
