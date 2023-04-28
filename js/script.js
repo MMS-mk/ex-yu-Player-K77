@@ -647,21 +647,21 @@ function Page() {
         const HAJDE DA SE VOLIMO = 'img/izveduvaci/802.jpg';
         const NA RASKRSCU = 'img/izveduvaci/803.jpg';
         const RATNE IGRE = 'img/izveduvaci/804.jpg';
-        const = 'img/izveduvaci/805.jpg';
-        const = 'img/izveduvaci/806.jpg';
-        const = 'img/izveduvaci/807.jpg';
-        const = 'img/izveduvaci/808.jpg';
-        const = 'img/izveduvaci/809.jpg';
-        const = 'img/izveduvaci/810.jpg';
-        const = 'img/izveduvaci/811.jpg';
-        const = 'img/izveduvaci/812.jpg';
-        const = 'img/izveduvaci/813.jpg';
-        const = 'img/izveduvaci/814.jpg';
-        const = 'img/izveduvaci/815.jpg';
-        const = 'img/izveduvaci/816.jpg';
-        const = 'img/izveduvaci/817.jpg';
-        const = 'img/izveduvaci/818.jpg';
-        const = 'img/izveduvaci/819.jpg';
+        const PLAVUSA = 'img/izveduvaci/805.jpg';
+        const ZBOG JEDNE DIVNE CRNE ZENE = 'img/izveduvaci/806.jpg';
+        const POKRENI ME = 'img/izveduvaci/807.jpg';
+        const SIZIKA = 'img/izveduvaci/808.jpg';
+        const AJDE AJDE JASMINA = 'img/izveduvaci/809.jpg';
+        const APRIL U BEOGRADU = 'img/izveduvaci/810.jpg';
+        const CINI MI SE GRMI = 'img/izveduvaci/811.jpg';
+        const DA TI KAZEM STA MI JE = 'img/izveduvaci/812.jpg';
+        const GORI VATRA = 'img/izveduvaci/813.jpg';
+        const KAD BI MOJA BILA = 'img/izveduvaci/814.jpg';
+        const MADJARICA = 'img/izveduvaci/815.jpg';
+        const MALO POJACAJ RADIO = 'img/izveduvaci/816.jpg';
+        const PISACU JOJ PISMA DUGA = 'img/izveduvaci/817.jpg';
+        const RIJEKA SUZA I NA NJOJ LADJA = 'img/izveduvaci/818.jpg';
+        const RUSKA = 'img/izveduvaci/819.jpg';
         const = 'img/izveduvaci/820.jpg';
         const = 'img/izveduvaci/821.jpg';
         const = 'img/izveduvaci/822.jpg';
@@ -854,6 +854,9 @@ function Page() {
         else if (artistRadio == 'DALEKO FT. KEMAL MONTENO'){
             var urlCoverArt = DALEKO_FT_KEMAL_MONTENO;
         }
+
+
+
         else 
         {
         var urlCoverArt = DEFAULT_COVER_ART;
