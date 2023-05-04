@@ -246,7 +246,7 @@ function Page() {
         const NESTO_LIJEPO_TREBA_DA_SE_DESI = 'img/izveduvaci/401.jpg';
         const MJESECINA = 'img/izveduvaci/402.jpg';
         const JEL_SARAJEVO_GDE_JE_NEKAD_BILO = 'img/izveduvaci/403.jpg';
-        const KAD_ZAMIRISU_JORGOVANI_FT_VESNA_ZMIJANAC = 'img/izveduvaci/404.jpg';
+        const KADZAMIRISUJORGOVANIFTVESNA_ZMIJANAC = 'img/izveduvaci/404.jpg';
         const ZAR_JE_TO_SVE_STO_IMAM_OD_TEBE = 'img/izveduvaci/405.jpg';
         const JA_POTPUNO_TRIJEZAN_UMIREM = 'img/izveduvaci/406.jpg';
         const NE_ZOVI_ME_NA_GRIJEH = 'img/izveduvaci/407.jpg';
@@ -384,7 +384,7 @@ function Page() {
         const RANO_RANIJE = 'img/izveduvaci/539.jpg';
         const SUZE_BISERNE = 'img/izveduvaci/540.jpg';
         const SVE_BI_SEKE_LJUBILE_MORNARE = 'img/izveduvaci/541.jpg';
-        const TAMARA = 'img/izveduvaci/542.jpg';
+        const TAMARA1 = 'img/izveduvaci/542.jpg';
         const AKO_ME_OSTAVIS = 'img/izveduvaci/543.jpg';
         const JA_NEMAM_VISE_RAZLOGA_DA_ZIVIM = 'img/izveduvaci/544.jpg';
         const JEDAN_DAN_ZIVOTA = 'img/izveduvaci/545.jpg';
@@ -1458,8 +1458,646 @@ function Page() {
             var urlCoverArt = LJUBAV_SE_ZOVE_IMENOM_TVOIM;
         }
         else if (artistRadio == 'NECU DA ZNAM ZA NIKOG OSIM TEBE'){
-            
+            var urlCoverArt = NECU_DA_ZNAM_ZA_NIKOG_OSIM_TEBE;
         }
+        else if (artistRadio == 'JACE MANIJACE'){
+            var urlCoverArt = JACE_MANIJACE;
+        }
+        else if (artistRadio == 'UMRI PRIJE SMRTI'){
+            var urlCoverArt = UMRI_PRIJE_SMRTI;
+        }
+        else if (artistRadio == 'SREDINOM'){
+            var urlCoverArt = SREDINOM;
+        }
+        else if (artistRadio == 'MOJ JE ZIVOT SVICARSKA'){
+            var urlCoverArt = MOJ_JE_ZIVOT_SVICARSKA;
+        }
+        else if (artistRadio == 'SVE JE LAZ'){
+            var urlCoverArt = SVE_JE_LAZ;
+        }
+        else if (artistRadio == 'GODINAMA'){
+            var urlCoverArt = GODINAMA;
+        }
+        else if (artistRadio == 'KAD SI REKLA DA ME VOLIS'){
+            var urlCoverArt = KAD_SI_REKLA_DA_ME_VOLIS;
+        }
+        else if (artistRadio == 'HITNA'){
+            var urlCoverArt = HITNA;
+        }
+        else if (artistRadio == 'DA JE TUGA SNIJEG'){
+            var urlCoverArt = DA_JE_TUGA_SNIJEG;
+        }
+        else if (artistRadio == 'KREMEN'){
+            var urlCoverArt = KREMEN;
+        }
+        else if (artistRadio == 'KAD COVIJEK VOLI ZENU'){
+            var urlCoverArt = KAD_COVIJEK_VOLI_ZENU;
+        }
+        else if (artistRadio == 'STA TI ZNACIM JA'){
+            var urlCoverArt = STA_TI_ZNACIM_JA;
+        }
+        else if (artistRadio == 'DANAS SAM OK'){
+            var urlCoverArt = DANAS_SAM_OK;
+        }
+        else if (artistRadio == 'BOSNOM BEHAR PROBEHARO'){
+            var urlCoverArt = BOSNOM_BEHAR_PROBEHARAO;
+        }
+        else if (artistRadio == 'OBICNA LJUBAVNA PJESMA'){
+            var urlCoverArt = OBICNA_LJUBAVNAPJESMA;
+        }
+        else if (artistRadio == 'A STA DA RADIM'){
+            var urlCoverArt = ASTA_DA_RADIM;
+        }
+        else if (artistRadio == 'DIGNI ME VISOKO'){
+            var urlCoverArt = DIGNI_MEVISOKO;
+        }
+        else if (artistRadio = 'FRATELLO'){
+            var urlCoverArt = FRAT_ELLO;
+        }
+        else if (artistRadio == 'STAVI PRAVU STVAR'){
+            var urlCoverArt = STAVI_PRAVUSTVAR;
+        }
+        else if (artistRadio == 'STA SI MI U KAVU STAVILA'){
+            var urlCoverArt = STA_SI_MI_UKAVU_STAVILA;
+        }
+        else if (artistRadio == 'NESTO LIJEPO TREBA DA SE DESI'){
+            var urlCoverArt = NESTO_LIJEPO_TREBA_DA_SE_DESI;
+        }
+        else if (artistRadio == 'MJESECINA'){
+            var urlCoverArt = MJESECINA;
+        }
+        else if (artistRadio == 'JEL SARAJEVO GDE JE NEKAD BILO'){
+            var urlCoverArt = JEL_SARAJEVO_GDE_JE_NEKAD_BILO;
+        }
+        else if (artistRadio == 'KAD ZAMIRISU JORGOVANI FT VESNA ZMIJANAC'){
+            var urlCoverArt = KADZAMIRISUJORGOVANIFTVESNA_ZMIJANAC;
+        }
+        else if (artistRadio == 'ZAR JE TO SVE STO IMAM OD TEBE'){
+            var urlCoverArt = ZAR_JE_TO_SVE_STO_IMAM_OD_TEBE;
+        }
+        else if (artistRadio == 'JA POTPUNO TRIJEZAN UMIREM'){
+            var urlCoverArt = JA_POTPUNO_TRIJEZAN_UMIREM;
+        }
+        else if (artistRadio == 'NE ZOVI ME NA GRIJEH') {
+            var urlCoverArt = NE_ZOVI_ME_NA_GRIJEH;
+        }
+        else if (artistRadio == 'NEMA JA 18 GODINA'){
+            var urlCoverArt = NEMAM_JA_18_GODINA;
+        }
+        else if (artistRadio == 'KOKUZNA VREMENA'){
+            var urlCoverArt = KOKUZNA_VREMENA;
+        }
+        else if (artistRadio == 'JA SAM NA TE NAVIKO'){
+            var urlCoverArt = JA_SAM_NA_TE_NAVIKO;
+        }
+        else if (artistRadio == 'UCINI MI PRAVU STVAR'){
+            var urlCoverArt = UCINI_MI_PRAVU_STVAR;
+        }
+        else if (artistRadio == 'SA MOJIH USANA'){
+            var urlCoverArt = SA_MOJIH_USANA;
+        }
+        else if (artistRadio == 'DA SUTIS'){
+            var urlCoverArt = DA_SUTIS;
+        }
+        else if (artistRadio == 'OTKRIT CU TI TAJNU'){
+            var urlCoverArt = OTKRIT_CU_TI_TAJNU;
+        }
+        else if (artistRadio == 'DESET MLADJA'){
+            var urlCoverArt = DESET_MLADJA;
+        }
+        else if (artistRadio == 'OSTAT CE ISTINE DVIJE'){
+            var urlCoverArt = OSTAT_CE_ISTINE_DVIJE;
+        }
+        else if (artistRadio == 'AKO ME IKAD SRETNES'){
+            var urlCoverArt = AKO_ME_IKADA_SRETNES;
+        }
+        else if (artistRadio == 'ZABORAVI'){
+            var urlCoverArt = ZABORAVI;
+        }
+        else if (artistRadio == 'MOJA BOGDA SNA'){
+            var urlCoverArt = MOJA_BOGDA_SNA;
+        }
+        else if (artistRadio == 'BASKA TI'){
+            var urlCoverArt = BASKA_TI;
+        }
+        else if (artistRadio == 'SMIJEHOM STAH POKRIJEM'){
+            var urlCoverArt = SMIJEHOM_STRAH_POKRIJEM;
+        }
+        else if (artistRadio == 'NEK PADAJU CUSKIJE'){
+            var urlCoverArt = NEK_PADAJU_CUSKIJE;
+        }
+        else if (artistRadio == 'ISPOCETKA'){
+            var urlCoverArt = ISPOCETKA;
+        }
+        else if (artistRadio == 'SVE DOK TE BUDE IMALO'){
+            var urlCoverArt = SVE_DOK_TE_BUDE_IMALO;
+        }
+        else if (artistRadio == 'LAZU ME'){
+            var urlCoverArt = LAZU_ME;
+        }
+        else if (artistRadio == 'LELO'){
+            var urlCoverArt = LELO;
+        }
+        else if (artistRadio == 'MARIJA'){
+            var urlCoverArt = MARIJA;
+        }
+        else if (artistRadio == 'KAKO SI TOPLA I MILA'){
+            var urlCoverArt = KAKO_SI_TOPLA_I_MILA;
+        }
+        else if (artistRadio == 'KRIVO JE MORE'){
+            var urlCoverArt = KRIVO_JE_MORE;
+        }
+        else if (artistRadio == 'JEDINA MOJA'){
+            var urlCoverArt = JEDINA_MOJA;
+        }
+        else if (artistRadio == 'ZAUVJEK TVOJ'){
+            var urlCoverArt = ZAUVJEK_TVOJ;
+        }
+        else if (artistRadio == 'VOL TE TVOJA ZVER'){
+            var urlCoverArt = VOLI_TE_TVOJA_ZVER;
+        }
+        else if (artistRadio == 'OSTAVI UZ MENE'){
+            var urlCoverArt = OSTANI_UZ_MENE;
+        }
+        else if (artistRadio == 'BAMBINA'){
+            var urlCoverArt = BAMBINA;
+        }
+        else if (artistRadio == 'DANI LJUBAVI'){
+            var urlCoverArt = DANI_LJUBAVI;
+        }
+        else if (artistRadio == 'IVONA'){
+            var urlCoverArt = IVONA;
+        }
+        else if (artistRadio == 'JAGODE I COKOLADA'){
+            var urlCoverArt = JAGODE_I_COKOLADA;
+        }
+        else if (artistRadio == 'PRICAJ MI O LJUBAVI'){
+            var urlCoverArt = PRICAJ_MI_O_LJUBAVI;
+        }
+        else if (artistRadio == 'ANDJELA MOJA JE DRAGA VESTICA'){
+            var urlCoverArt = ANDJELA_MOJA_JE_DRAGA_VESTICA;
+        }
+        else if (artistRadio == 'BOZA ZVANI PUB'){
+            var urlCoverArt = BOZA_ZVANI_PUB;
+        }
+        else if (artistRadio == 'DEVOJKA SA CARDAS NOGAMA'){
+            var urlCoverArt = DEVOJKA_SA_CARDAS_NOGAMA;
+        }
+        else if (artistRadio == 'DIVLJI BADEM'){
+            var urlCoverArt = DIVLJI_BADEM;
+        }
+        else if (artistRadio == 'D MOLL'){
+            var urlCoverArt = D_MOLL;
+        }
+        else if (artistRadio == 'JA LUZER'){
+            var urlCoverArt = JA_LUZER;
+        }
+        else if (artistRadio == 'JAROSLOAVA PRINCEZO JAVI SE'){
+            var urlCoverArt = JAROSLAVA_PRINCEZO_JAVI_SE;
+        }
+        else if (artistRadio == 'LEPA PROTINA KCI'){
+            var urlCoverArt = LEPA_PROTINA_KCI;
+        }
+        else if (artistRadio == 'LJERKA'){
+            var urlCoverArt = LJERKA;
+        }
+        else if (artistRadio == 'NE LOMITE MI BAGRENJE'){
+            var urlCoverArt = NE_LOMITE_MI_BAGRENJE;
+        }
+        else if (artistRadio == 'NE VOLIM JANUAR'){
+            var urlCoverArt = NE_VOLIM_JANUAR;
+        }
+        else if (artistRadio == 'NEKI NOVI KLINCI'){
+            var urlCoverArt = NEKI_NOVI_KLINCI;
+        }
+        else if (artistRadio == 'NEVERNIK'){
+            var urlCoverArt = NEVERNIK;
+        }
+        else if (artistRadio == 'NIKAD KAO BANE'){
+            var urlCoverArt = NIKAD_KAO_BANE;
+        }
+        else if (artistRadio == 'OLELOLE'){
+            var urlCoverArt = OLELOLE;
+        }
+        else if (artistRadio == 'OPROSTI MI KARTIN'){
+            var urlCoverArt = OPROSTI_MI_KATRIN;
+        }
+        else if (artistRadio == 'PA DOBRO GDE SI TI'){
+            var urlCoverArt = PA_DOBRO_GDE_SI_TI;
+        }
+        else if (artistRadio == 'PORTRET MOG ZIVOTA'){
+            var urlCoverArt = PORTRET_MOG_ZIVOTA;
+        }
+        else if (artistRadio == 'PROVINCIJALKA'){
+            var urlCoverArt = PROVINCIJALKA;
+        }
+        else if (artistRadio == 'PRVA LJUBAV'){
+            var urlCoverArt = PRVA_LJUBAV;
+        }
+        else if (artistRadio == 'RINGISPIL'){
+            var urlCoverArt = RINGISPIL;
+        }
+        else if (artistRadio == 'SIN JEDINAC'){
+            var urlCoverArt = SIN_JEDINAC;
+        }
+        else if (artistRadio == 'SLABO DIVANIM MADZARSKI'){
+            var urlCoverArt = SLABO_DIVANIM_MADZARSKI;
+        }
+        else if (artistRadio == 'SLOVENSKA'){
+            var urlCoverArt = SLOVENSKA;
+        }
+        else if (artistRadio == 'SVIRAJTE MI JESEN STIZE DUNJO MOJA'){
+            var urlCoverArt = SVIRAJTE_MI_JESEN_STIZE_DUNJO_MOJA;
+        }
+        else if (artistRadio == 'USPAVANKA ZA DECAKA'){
+            var urlCoverArt = USPAVANKA_ZA_DECAKA;
+        }
+        else if (artistRadio == 'OLIVERA'){
+            var urlCoverArt = OLIVERA;
+        }
+        else if (artistRadio == 'SJAJ U TAMI'){
+            var urlCoverArt = SJAJ_U_TAMI;
+        }
+        else if (artistRadio == 'SAKOM O STOL'){
+            var urlCoverArt = SAKOM_O_STOL;
+        }
+        else if (artistRadio == 'JA NOCAS UMIREM'){
+            var urlCoverArt = JA_NOCAS_UMIREM;
+        }
+        else if (artistRadio == 'KRIVI LJUDI'){
+            var urlCoverArt = KRIVI_LJUDI;
+        }
+        else if (artistRadio == 'MALO MI ZA SRICU TRIBA'){
+            var urlCoverArt = MALO_MI_ZA_SRICU_TRIBA;
+        }
+        else if (artistRadio == 'MARIJA MAGDALENA'){
+            var urlCoverArt = MARIJA_MAGDALENA;
+        }
+        else if (artistRadio == 'MORAM'){
+            var urlCoverArt = MORAM;
+        }
+        else if (artistRadio == 'PETAK'){
+            var urlCoverArt = PETAK;
+        }
+        else if (artistRadio == 'TO'){
+            var urlCoverArt = TO;
+        }
+        else if (artistRadio == 'ZELJO MOJA'){
+            var urlCoverArt = ZELJO_MOJA;
+        }
+        else if (artistRadio == 'NI DA MORA NESTANE') {
+            var urlCoverArt = NI_DA_MORA_NESTANE;
+        }
+        else if (artistRadio == 'STAJE OD MENE OSTALO'){
+            var urlCoverArt = STAJE_OD_MENE_OSTALO;
+        }
+        else if (artistRadio == 'IMA LI NADE ZA NAS FT ANDJELA ZECIC'){
+            var urlCoverArt = IMA_LI_NADE_ZA_NAS_FT_ANDJELA_ZECIC;
+        }
+        else if (artistRadio == 'PISI MI'){
+            var urlCoverArt = PISI_MI;
+        }
+        else if (artistRadio == 'PRODJE OVAJ DAN'){var urlCoverArt = PRODJE_OVAJ_DAN;}
+        else if (artistRadio == 'PAR GODINA ZA NAS'){var urlCoverArt = PAR_GODINA_ZA_NAS;}
+        else if (artistRadio == 'SRCE'){var urlCoverArt = SRCE;}
+        else if (artistRadio == 'OCI BOJE MEDA'){var urlCoverArt = OCI_BOJE_MEDA;}
+        else if (artistRadio == 'TI SI SAM MOJ BOL'){var urlCoverArt = TI_SI_SAV_MOJ_BOL;}
+        else if (artistRadio == 'KURG'){var urlCoverArt = KRUG;}
+        else if (artistRadio == 'DA SI TAKO JAKA'){var urlCoverArt = DA_SI_TAKO_JAKA;}
+        else if (artistRadio == 'BEJBE TI NISI TU'){var urlCoverArt = BEJBE_TI_NISI_TU;}
+        else if (artistRadio == 'IGRA ROCK NN ROLL CELA JUGOSLAVIJA'){var urlCoverArt = IGRA_ROCK_NN_ROLL_CELA_JUGOSLAVIJA;}
+        else if (artistRadio == 'MALA MALA MALA GRUPA PEDERA'){var urlCoverArt = MALA_MALA_MALA_GRUPA_PEDERA;}
+        else if (artistRadio == 'PARANOJA'){var urlCoverArt = PARANOJA;}
+        else if (artistRadio == 'STO JA VOLIM TAJ SEX'){var urlCoverArt = STO_JA_VOLIM_TAJ_SEX;}
+        else if (artistRadio == 'A SADA IDEM FT TIFA'){var urlCoverArt = A_SADA_IDEM_FT_TIFA;}
+        else if (artistRadio == 'BOJE SU U NAMA'){var urlCoverArt = BOJE_SU_U_NAMA;}
+        else if (artistRadio == 'DOCI CU TI U SNOVIMA'){var urlCoverArt = DOCI_CU_TI_U_SNOVIMA;}
+        else if (artistRadio == 'LIJEPO LIJEPO NEOPISIVO'){var urlCoverArt = LIJEPO_LIJEPO_NEOPISIVO;}
+        else if (artistRadio == 'NJEZNO NJEZNO NJEZNIJE'){var urlCoverArt = NJEZNO_NJEZNO_NJEZNIJE;}
+        else if (artistRadio == 'PJEVAMO DO ZORE'){var urlCoverArt = PJEVAJMO_DO_ZORE;}
+        else if (artistRadio == 'ZAMISLI ZIVOT U RITMU MUZIKE ZA PLES'){var urlCoverArt = ZAMISLI_ZIVOT_U_RITMU_MUZIKE_ZA_PLES;}
+        else if (artistRadio == 'DOBRE VIBRACIJE'){var urlCoverArt = DOBRE_VIBRACIJE;}
+        else if (artistRadio == 'SRCE NA CESTI'){var urlCoverArt = SRCE_NA_CESTI;}
+        else if (artistRadio == 'MI NISMO SAMI'){var urlCoverArt = MI_NISMO_SAMI;}
+        else if (artistRadio == 'SJECAM SE PRVOG POLJUPCA'){var urlCoverArt = SJECAM_SE_PRVOG_POLJUPCA;}
+        else if (artistRadio == 'LJUBAV JE ZAKON'){var urlCoverArt = LJUBAV_JE_ZAKON;}
+        else if (artistRadio == 'MACKA'){var urlCoverArt = MACKA;}
+        else if (artistRadio == 'ZABORAVIT CU SVE'){var urlCoverArt = ZABORAVIT_CU_SVE;}
+        else if (artistRadio == 'ZVONI TELEFON'){var urlCoverArt = ZVONI_TELEFON;}
+        else if (artistRadio == 'VOLIM TE BUDALO MALA'){var urlCoverArt = VOLIM_TE_BUDALO_MALA;}
+        else if (artistRadio == 'ZAGRLJENI'){var urlCoverArt = ZAGRLJENI;}
+        else if (artistRadio == 'PAMTIM SAMO SRETNE DANE'){var urlCoverArt = PAMTIM_SAMO_SRETNE_DANE;}
+        else if (artistRadio == 'ON ME VOLI NA SVOJ NACIN'){var urlCoverArt = ON_ME_VOLI_NA_SVOJ_NACIN;}
+        else if (artistRadio == 'VINO I GITARE'){var urlCoverArt = VINO_I_GITARE;}
+        else if (artistRadio == 'CINIM PRAVU STVAR'){var urlCoverArt = CINIM_PRAVU_STVAR;}
+        else if (artistRadio == 'DVIJE DUSE'){var urlCoverArt = DVIJE_DUSE;}
+        else if (artistRadio == 'ISPOD MOGA PRAMCA'){var urlCoverArt = ISPOD_MOGA_PRAMCA;}
+        else if (artistRadio == 'OVO MI JE SKOLA'){var urlCoverArt = OVO_MI_JE_SKOLA;}
+        else if (artistRadio == 'SUVISE SAM NJEN'){var urlCoverArt = SUVISE_SAM_NJEN;}
+        else if (artistRadio == 'BAS TI LIJEPO STOJE SUZE'){var urlCoverArt = BAS_TI_LIJEPO_STOJE_SUZE;}
+        else if (artistRadio == 'HEJ KAKO SI'){var urlCoverArt = HEJ_KAKO_SI;}
+        else if (artistRadio == 'JAVI SE'){var urlCoverArt = JAVI_SE;}
+        else if (artistRadio == 'KAD DODJE OKTOBAR'){var urlCoverArt = KAD_DODJE_OKTOBAR;}
+        else if (artistRadio == 'KAO DOMINE'){var urlCoverArt = KAO_DOMINE;}
+        else if (artistRadio == 'COVAM NOC OD BUDNIH'){var urlCoverArt = CUVAM_NOC_OD_BUDNIH;}
+        else if (artistRadio == 'FEMME FATALE'){var urlCoverArt = FEMME_FATALE;}
+        else if (artistRadio == 'KAO KAKAO'){var urlCoverArt = KAO_KAKAO;}
+        else if (artistRadio == 'MAMURNI LJUDI'){var urlCoverArt = MAMURNI_LJUDI;}
+        else if (artistRadio == 'SKOPJE'){var urlCoverArt = SKOPJE;}
+        else if (artistRadio == 'UCI ME MAJKO KARAJ ME'){var urlCoverArt = UCI_ME_MAJKO_KARAJ_ME;}
+        else if (artistRadio == 'CUKNI VO DRVO'){var urlCoverArt = CUKNI_VO_DRVO;}
+        else if (artistRadio == 'IMA VREMENA'){var urlCoverArt = IMA_VREMENA;}
+        else if (artistRadio == 'SANJAO SAM MOJ RUZICU'){var urlCoverArt= SANJAO_SAM_MOJ_RUZICU;}
+        else if (artistRadio == 'GUTLJAJ VINA'){var urlCoverArt = GUTLJAJ_VINA;}
+        else if (artistRadio == 'JEL ZBOG NJE'){var urlCoverArt = JEL_ZBOG_NJE;}
+        else if (artistRadio == 'KOKOLO'){var urlCoverArt = KOKOLO;}
+        else if (artistRadio == 'LJUBE SE DOBRI LOSI ZLI'){var urlCoverArt = LJUBE_SE_DOBRI_LOSI_ZLI;}
+        else if (artistRadio == 'MINUT SRCA TVOG'){var urlCoverArt = MINUT_SRCA_TVOG;}
+        else if (artistRadio == 'OKO MOJE SANJIVO'){var urlCoverArt = OKO_MOJE_SANJIVO;}
+        else if (artistRadio == 'OPIJUM'){var urlCoverArt = OPIJUM;}
+        else if (artistRadio == 'PUT PUTUJEM'){var urlCoverArt = PUT_PUTUJEM;}
+        else if (artistRadio == 'RANO RANIJE'){var urlCoverArt = RANO_RANIJE;}
+        else if (artistRadio == 'SUZE BISERNE'){var urlCoverArt = SUZE_BISERNE;}
+        else if (artistRadio == 'SVE BI SEKE LJUBILE MORNAER'){var urlCoverArt = SVE_BI_SEKE_LJUBILE_MORNARE;}
+        else if (artistRadio == 'TAMARA'){var urlCoverArt = TAMARA1;}
+        else if (artistRadio == 'AKO ME OSTAVIS'){var urlCoverArt = AKO_ME_OSTAVIS;}
+        else if (artistRadio == 'JA NEMAM VISE RAZLOGA DA ZIVIM'){var urlCoverArt = JA_NEMAM_VISE_RAZLOGA_DA_ZIVIM;}
+        else if (artistRadio == 'JEDAN DAN ZIVOTA'){var urlCoverArt = JEDAN_DAN_ZIVOTA;}
+        else if (artistRadio == 'JOS I DANAS TEKU SUZE JEDNE ZENE'){var urlCoverArt = JOS_I_DANAS_TEKU_SUZE_JEDNE_ZENE;}
+        else if (artistRadio == 'MALO MI JE JEDAN ZIVOT S TOBOM'){var urlCoverArt = MALO_MI_JE_JEDAN_ZIVOT_S_TOBOM;}
+        else if (artistRadio == 'NIKOGA NISAM VOLIO TAKO'){var urlCoverArt = NIKOGA_NISAM_VOLIO_TAKO;}
+        else if (artistRadio == 'OSTALA SI UVIJEK ISTA'){var urlCoverArt = OSTALA_SI_UVIJEK_ISTA;}
+        else if (artistRadio == 'SVI PEVAJU JA NE CUJEM'){var urlCoverArt = SVI_PEVAJU_JA_NE_CUJEM;}
+        else if (artistRadio == 'TI SI PJESMA MOJE DUSE'){var urlCoverArt = TI_SI_PJESMA_MOJE_DUSE;}
+        else if (artistRadio == 'DALI SI SPAVALA'){var urlCoverArt = DALI_SI_SPAVALA;}
+        else if (artistRadio == 'DA ME NISI'){var urlCoverArt = DA_ME_NISI;}
+        else if (artistRadio == 'DIGNI RUKU'){var urlCoverArt = DIGNI_RUKU;}
+        else if (artistRadio == 'DODIRNI ME'){var urlCoverArt = DODIRNI_ME;}
+        else if (artistRadio == 'KAD ME POGLEDAS'){var urlCoverArt = KAD_ME_POGLEDAS;}
+        else if (artistRadio == 'KOTOR'){var urlCoverArt = KOTOR;}
+        else if (artistRadio == 'SKADARSKA'){var urlCoverArt = SKADARSKA;}
+        else if (artistRadio == 'TRUBE'){var urlCoverArt = TRUBE;}
+        else if (artistRadio == 'TI SAMO BUDI DOVOLNO DALEKO'){var urlCoverArt = TI_SAMO_BUDI_DOVOLJNO_DALEKO;}
+        else if (artistRadio == 'OSMIJEH'){var urlCoverArt = OSMIJEH;}
+        else if (artistRadio == 'KENOZOIK'){var urlCoverArt = KENOZOIK;}
+        else if (artistRadio == 'MALJCHIKI'){var urlCoverArt = MALJCHIKI;}
+        else if (artistRadio == 'LEJLA'){var urlCoverArt = LEJLA;}
+        else if (artistRadio == 'LUD SAM ZA TOBOM'){var urlCoverArt = LUD_SAM_ZA_TOBOM;}
+        else if (artistRadio == 'NEK NEBO NAM SUDI'){var urlCoverArt = NEK_NEBO_NAM_SUDI;}
+        else if (artistRadio == 'OSTAVI SUZE ZA KRAJ'){var urlCoverArt = OSTAVI_SUZE_ZA_KRAJ;}
+        else if (artistRadio == 'OTKAD TEBE NEMA'){var urlCoverArt = OTKAD_TEBE_NEMA;}
+        else if (artistRadio == 'RODJENA SI SAMO ZA MENE'){var urlCoverArt = RODJENA_SI_SAMO_ZA_MENE;}
+        else if (artistRadio == 'RUZMARIN'){var urlCoverArt = RUZMARIN;}
+        else if (artistRadio == 'STRAH ME DA TE VOLIM'){var urlCoverArt = STRAH_ME_DA_TE_VOLIM;}
+        else if (artistRadio == 'SVE LJUBAVI SU TUZNE'){var urlCoverArt = SVE_LJUBAVI_SU_TUZNE;}
+        else if (artistRadio == 'SVI MOJI DRUMOVI'){var urlCoverArt = SVI_MOJI_DRUMOVI;}
+        else if (artistRadio == 'TI ZNAS SVE'){var urlCoverArt = TI_ZNAS_SVE;}
+        else if (artistRadio == 'VOLIO BI DA TE NE VOLIM'){var urlCoverArt = VOLIO_BI_DA_TE_NE_VOLIM;}
+        else if (artistRadio == 'STRANAC U NOCI'){var urlCoverArt = STRANAC_U_NOCI;}
+        else if (artistRadio == 'POTRAZI ME U PREDGRADU'){var urlCoverArt = POTRAZI_ME_U_PREDGRADU;}
+        else if (artistRadio == 'SAMO SIMPATIJA'){var urlCoverArt = SAMO_SIMPATIJA;}
+        else if (artistRadio == 'ZORA JE'){var urlCoverArt = ZORA_JE;}
+        else if (artistRadio == 'STO CE TAJ COVJEK TU'){var urlCoverArt = STO_CE_TAJ_COVJEK_TU;}
+        else if (artistRadio == 'TESKA VREMENA PRIJATELJU MOJ'){var urlCoverArt = TESKA_VREMENA_PRIJATELJU_MOJ;}
+        else if (artistRadio == 'DOTAKNI ME USNAMA'){var urlCoverArt = DOTAKNI_ME_USNAMA;}
+        else if (artistRadio == 'RIJEKA SNOVA'){var urlCoverArt = RIJEKA_SNOVA;}
+        else if (artistRadio == 'SUNCAN DAN'){var urlCoverArt = SUNCAN_DAN;}
+        else if (artistRadio == 'KAVANNA FT FIUMENS'){var urlCoverArt = KAVANNA_FT_FIUMENS;}
+        else if (artistRadio == 'NAJDRAZE MOJE'){var urlCoverArt = NAJDRAZE_MOJE;}
+        else if (artistRadio == 'PLAVA KOSULJA'){var urlCoverArt = PLAVA_KOSULJA;}
+        else if (artistRadio == 'SUTI MOJ DJECACE PLAVI'){var urlCoverArt = SUTI_MOJ_DJECACE_PLAVI;}
+        else if (artistRadio == 'ZA DOBRA STARA VREMENA'){var urlCoverArt = ZA_DOBRA_STARA_VREMENA;}
+        else if (artistRadio == 'ZNAM'){var urlCoverArt = ZNAM;}
+        else if (artistRadio == 'BICU TVOJ'){var urlCoverArt = BICU_TVOJ;}
+        else if (artistRadio == 'BOBANE'){var urlCoverArt= BOBANE;}
+        else if (artistRadio == 'DODJE MI DA VRISNEM TVOJE IME'){var urlCoverArt = DODJE_MI_DA_VRISNEM_TVOJE_IME;}
+        else if (artistRadio == 'NIJE ZA NJU'){var urlCoverArt = NIJE_ZA_NJU;}
+        else if (artistRadio == 'ODLAZIM A VOLIM TE'){var urlCoverArt = ODLAZIM_A_VOLIM_TE;}
+        else if (artistRadio == 'OSLONI SE NA MENE'){var urlCoverArt = OSLONI_SE_NE_MENE;}
+        else if (artistRadio == 'PITAJU ME PITAJU'){var urlCoverArt = PITAJU_ME_PITAJU;}
+        else if (artistRadio == 'POMAGAJTE DRUGOVI'){var urlCoverArt = POMAGAJTE_DRUGOVI;}
+        else if (artistRadio == 'SMEJEM SE A PLAKAO BIH'){var urlCoverArt = SMEJEM_SE_A_PLAKAO_BIH;}
+        else if (artistRadio == 'ZBOG TEBE BIH TUCAO KAMEN'){var urlCoverArt = ZBOG_TEBE_BIH_TUCAO_KAMEN;}
+        else if (artistRadio == 'CRNI PLES'){var urlCoverArt = CRNI_PLES;}
+        else if (artistRadio == 'DENIS'){var urlCoverArt = DENIS;}
+        else if (artistRadio == 'NADJI ME'){var urlCoverArt = NADJI_ME;}
+        else if (artistRadio == 'SAM'){var urlCoverArt = SAM;}
+        else if (artistRadio == 'BROD U BOCI'){var urlCoverArt = BROD_U_BOCI;}
+        else if (artistRadio == 'CESARICA'){var urlCoverArt = CESARICA;}
+        else if (artistRadio == 'DVAPUT SAN UMRA'){var urlCoverArt = DVAPUT_SAN_UMRA;}
+        else if (artistRadio == 'KAD MI DODZES TI'){var urlCoverArt = KAD_MI_DODZES_TI;}
+        else if (artistRadio == 'NEBO MOJE'){var urlCoverArt = NEBO_MOJE;}
+        else if (artistRadio == 'NEDOSTAJES MI TI'){var urlCoverArt = NEDOSTAJES_MI_TI;}
+        else if (artistRadio == 'NOCTURNO'){var urlCoverArt = NOCTURNO;}
+        else if (artistRadio == 'PISMO MOJA'){var urlCoverArt = PISMO_MOJA;}
+        else if (artistRadio == 'PRED TVOJIM VRATIME'){var urlCoverArt = PRED_TVOJIM_VRATIMA;}
+        else if (artistRadio == 'STINE'){var urlCoverArt = STINE;}
+        else if (artistRadio == 'STO TO BJESE LJUBAV'){var urlCoverArt = STO_TO_BJESE_LJUBAV;}
+        else if (artistRadio == 'SVE BI DA ZA NJU'){var urlCoverArt = SVE_BI_DA_ZA_NJU;}
+        else if (artistRadio == 'SVIRAJTE NOCAS ZA MOJU DUSU'){var urlCoverArt = SVIRAJTE_NOCAS_ZA_MOJU_DUSU;}
+        else if (artistRadio == 'TRAG U BESKRAJU'){var urlCoverArt = TRAG_U_BESKRAJU;}
+        else if (artistRadio == 'VJERUJ U LJUBAV'){var urlCoverArt = VJERUJ_U_LJUBAV;}
+        else if (artistRadio == 'U LJUBAV VJERE NEMAM FT GIBONI'){var urlCoverArt = U_LJUBAV_VJERE_NEMAM_FT_GIBONNI;}
+        else if (artistRadio == 'DZENI'){var urlCoverArt = DZENI;}
+        else if (artistRadio == 'E DA SI BAREM NOCAS OVDJE'){var urlCoverArt = E_DA_SI_BAREM_NOCAS_OVDJE;}
+        else if (artistRadio == 'E MOJ SASA'){var urlCoverArt = E_MOJ_SASA;}
+        else if (artistRadio == 'JA SAM ZA PLES'){var urlCoverArt = JA_SAM_ZA_PLES;}
+        else if (artistRadio == 'JESEN JE'){var urlCoverArt = JESEN_JE;}
+        else if (artistRadio == 'MILENA'){var urlCoverArt = MILENA;}
+        else if (artistRadio == 'CARTE BLANCHE'){var urlCoverArt = CARTE_BLANCHE;}
+        else if (artistRadio == 'BEZ TEBE'){var urlCoverArt = BEZ_TEBE;}
+        else if (artistRadio == 'DITELINA S CETIRI LISTA'){var urlCoverArt = DITELINA_S_CETRI_LISTA;}
+        else if (artistRadio == 'JEDAN OD MNOGIH'){var urlCoverArt = JEDAN_OD_MNOGIH;}
+        else if (artistRadio == 'CALIFORNIA'){var urlCoverArt = CALIFORNIA;}
+        else if (artistRadio == 'JEANS GENERACIJA'){var urlCoverArt = JEANS_GENERACIJA;}
+        else if (artistRadio == 'KAKVA NOC'){var urlCoverArt = KAKVA_NOC;}
+        else if (artistRadio == 'DZEMPER ZA VINOGRAD'){var urlCoverArt = DZEMPER_ZA_VINOGRAD;}
+        else if (artistRadio == 'KAD BI DOSLA MARIJA'){var urlCoverArt = KAD_BI_DOSLA_MARIJA;}
+        else if (artistRadio == 'OD DRUGA DO DRUGA'){var urlCoverArt = OD_DRUGA_DO_DRUGA;}
+        else if (artistRadio == 'VINO NOCI FT DEMODE'){var urlCoverArt = VINO_NOCI_FT_DEMODE;}
+        else if (artistRadio == 'KOLACICI'){var urlCoverArt = KOLACICI;}
+        else if (artistRadio == 'DA MI JE BITI MORSKI PAS'){var urlCoverArt = DA_MI_JE_BITI_MORSKI_PAS;}
+        else if (artistRadio == 'AKO JEDNOM CIDIS MARIJU'){var urlCoverArt = AKO_JEDNOM_VIDIS_MARIJU;}
+        else if (artistRadio == 'KAD BIH ZNAO DA JE SAMA'){var urlCoverArt = KAD_BIH_ZNAO_DA_JE_SAMA;}
+        else if (artistRadio == 'AKO OVO JE KRAJ FT DAVOR DRAGOJEVIC'){var urlCoverArt = AKO_OVO_JE_KRAJ_FT_DAVOR_DRAGOJEVIC;}
+        else if (artistRadio == 'APSOLUTNO TVOJ'){var urlCoverArt = APSOLUTNO_TVOJ;}
+        else if (artistRadio == 'JA IMAM TE A KO DA NEMAM TE'){var urlCoverArt = JA_IMAM_TE_A_KO_DA_NEMAM_TE;}
+        else if (artistRadio == 'PRSTEN I ZLATNI LANAC'){var urlCoverArt = PRSTEN_I_ZLATNI_LANAC;}
+        else if (artistRadio == 'STO JE BILO BILO JE'){var urlCoverArt = STO_JE_BILO_BILO_JE;}
+        else if (artistRadio == 'ZUTE DUNJE'){var urlCoverArt = ZUTE_DUNJE;}
+        else if (artistRadio == 'STO TE NEMA'){var urlCoverArt = STO_TE_NEMA;}
+        else if (artistRadio == 'SVE SMO MOGLI MI'){var urlCoverArt = SVE_SMO_MOGLI_MI;}
+        else if (artistRadio == 'JA SAM TI JEDINI DRUG'){var urlCoverArt = JA_SAM_TI_JEDINI_DRUG;}
+        else if (artistRadio == 'NA OBALI'){var urlCoverArt = NA_OBALI;}
+        else if (artistRadio == 'SKITNICA'){var urlCoverArt = SKITNICA;}
+        else if (artistRadio == 'DODZI U MALI KAFE'){var urlCoverArt = DODZI_U_MALI_KAFE;}
+        else if (artistRadio == 'GOVOR TVOGA TELA'){var urlCoverArt = GOVOR_TVOGA_TELA;}
+        else if (artistRadio == 'LJULJAJ ME NEZNO'){var urlCoverArt = LJULJAJ_ME_NEZNO;}
+        else if (artistRadio == 'PROBAJ ME'){var urlCoverArt = PROBAJ_ME;}
+        else if (artistRadio == 'GDE DA POBEGNEM'){var urlCoverArt = GDE_DA_POBEGNEM;}
+        else if (artistRadio == 'MARIJA'){var urlCoverArt = MARIJA;}
+        else if (artistRadio == 'MOZDA NEBO ZNA'){var urlCoverArt = MOZDA_NEBO_ZNA;}
+        else if (artistRadio == 'S KIM CEKAS DAN'){var urlCoverArt = S_KIM_CEKAS_DAN;}
+        else if (artistRadio == 'VINO CRVENO'){var urlCoverArt = VINO_CRVENO;}
+        else if (artistRadio == 'IVANA'){var urlCoverArt = IVANA;}
+        else if (artistRadio == 'DODJI'){var urlCoverArt = DODJI;}
+        else if (artistRadio == 'DOK SI PORED MENE'){var urlCoverArt = DOK_SI_PORED_MENE;}
+        else if (artistRadio == 'JESEN_U_MENI'){var urlCoverArt = JESEN_U_MENI;}
+        else if (artistRadio == 'KADA ME DOTAKNE'){var urlCoverArt = KADA_ME_DOTAKNE;}
+        else if (artistRadio == 'KAO TI'){var urlCoverArt = KAO_TI;}
+        else if (artistRadio == 'LJUBAVNA'){var urlCoverArt = LJUBAVNA;}
+        else if (artistRadio == 'LUTKA ZA BAL'){var urlCoverArt = LUTKA_ZA_BAL;}
+        else if (artistRadio == 'MOJA JE PJESMA LAGANA'){var urlCoverArt = MOJA_JE_PJESMA_LAGANA;}
+        else if (artistRadio == 'NEDA'){var urlCoverArt = NEDA;}
+        else if (artistRadio == 'PROKLETA NEDELJA'){var urlCoverArt = PROKLETA_NEDELJA;}
+        else if (artistRadio == 'SVE JOS MIRISE NA NJU'){var urlCoverArt = SVE_JOS_MIRISE_NA_NJU;}
+        else if (artistRadio == 'U LJUBAV VJERUJEM'){var urlCoverArt = U_LJUBAV_VJERUJEM;}
+        else if (artistRadio == 'UGASI ME'){var urlCoverArt = UGASI_ME;}
+        else if (artistRadio == 'UHVATI RITAM'){var urlCoverArt = UHVATI_RITAM;}
+        else if (artistRadio == 'ZASTAVE'){var urlCoverArt = ZASTAVE;}
+        else if (artistRadio == 'STRANICE DNEVNIKA'){var urlCoverArt = STRANICE_DNEVNIKA;}
+        else if (artistRadio == 'DOLAZIM ZA 5 MINUTA'){var urlCoverArt = DOLAZIM_ZA_5_MINUTA;}
+        else if (artistRadio == 'NAJ JACI OSTAJU'){var urlCoverArt = NAJ_JACI_OSTAJU;}
+        else if (artistRadio == 'POVEDI ME U NOC'){var urlCoverArt = POVEDI_ME_U_NOC;}
+        else if (artistRadio == 'SVEMU DODJE KRAJ'){var urlCoverArt = SVEMU_DODJE_KRAJ;}
+        else if (artistRadio == 'TI I JA'){var urlCoverArt = TI_I_JA;}
+        else if (artistRadio == 'BI MOGO DA MOGU'){var urlCoverArt = BI_MOGO_DA_MOGU;}
+        else if (artistRadio == 'ENA'){var urlCoverArt = ENA;}
+        else if (artistRadio == 'MOJA PRVA LJUBAV'){var urlCoverArt = MOJA_PRVA_LJUBAV;}
+        else if (artistRadio == 'SAL OD SVILE'){var urlCoverArt = SAL_OD_SVILE;}
+        else if (artistRadio == 'SEJN'){var urlCoverArt = SEJN;}
+        else if (artistRadio == 'UZALUD PITAS'){var urlCoverArt = UZALUD_PITAS;}
+        else if (artistRadio == 'LAGANO UMIREM'){var urlCoverArt = LAGANO_UMIREM;}
+        else if (artistRadio == 'CEKALA SAM'){var urlCoverArt = CEKALA_SAM;}
+        else if (artistRadio == 'NE LOMI ME'){var urlCoverArt = NE_LOMI_ME;}
+        else if (artistRadio == 'RUZMARIN'){var urlCoverArt = RUZMARIN;}
+        else if (artistRadio == 'SVE LJUBAVI SU TUZNE'){var urlCoverArt = SVE_LJUBAVI_SU_TUZNE;}
+        else if (artistRadio == 'CINI MI SE DA'){var urlCoverArt = CINI_MI_SE_DA;}
+        else if (artistRadio == 'KADA SANJAMO'){var urlCoverArt = KADA_SANJAMO;}
+        else if (artistRadio == 'NEVERNA SI'){var urlCoverArt = NEVERNA_SI;}
+        else if (artistRadio == 'TO JE SUDBINA'){var urlCoverArt = TO_JE_SUDBINA;}
+        else if (artistRadio == 'KAO PTICA NA MOM DLANU'){var urlCoverArt = KAO_PTICA_NA_MOM_DLANU;}
+        else if (artistRadio == 'TAJNA JE U TEBI SKRIVENA'){var urlCoverArt = TAJNA_JE_U_TEBI_SKRIVENA;}
+        else if (artistRadio == 'ZABORAVLJENI'){var urlCoverArt = ZABORAVLJENI;}
+        else if (artistRadio == 'AKO SU TO SAMO BILE LAZI'){var urlCoverArt = AKO_SU_TO_SAMO_BILE_LAZI;}
+        else if (artistRadio == 'BOLJE BITI PIJAN NEGO STAR'){var urlCoverArt = BOLJE_BITI_PIJAN_NEGO_STAR;}
+        else if (artistRadio == 'KAJA'){var urlCoverArt = KAJA;}
+        else if (artistRadio == 'LJUBI SE ISTOK I ZAPAD'){var urlCoverArt = LJUBI_SE_ISTOK_I_ZAPAD;}
+        else if (artistRadio == 'LOVAC I KOSUTA'){var urlCoverArt = LOVAC_I_KOSUTA;}
+        else if (artistRadio == 'GRUDI BALKANSKE'){var urlCoverArt = GRUDI_BALKANSKE;}
+        else if (artistRadio == 'NATASA'){var urlCoverArt = NATASA;}
+        else if (artistRadio == 'VRATI SE'){var urlCoverArt = VRATI_SE;}
+        else if (artistRadio == 'FRIDA'){var urlCoverArt = FRIDA;}
+        else if (artistRadio == 'JEDNA MALA PLAVA'){var urlCoverArt = JEDNA_MALA_PLAVA;}
+        else if (artistRadio == 'PRINCEZA FT DADO TOPIC'){var urlCoverArt = PRINCEZA_FT_DADO_TOPIC;}
+        else if (artistRadio == 'ODLAZIM'){var urlCoverArt = ODLAZIM;}
+        else if (artistRadio == 'SAVA TIHO TECE'){var urlCoverArt = SAVA_TIHO_TECE;}
+        else if (artistRadio == 'SUADA'){var urlCoverArt = SUADA;}
+        else if (artistRadio == 'ZELENE SU BILE OCI TE'){var urlCoverArt = ZELENE_SU_BILE_OCI_TE;}
+        else if (artistRadio == 'DECKO AJDE OLADI'){var urlCoverArt = DECKO_AJDE_OLADI;}
+        else if (artistRadio == 'SRCE OD MEDA'){var urlCoverArt = SRCE_OD_MEDA;}
+        else if (artistRadio == 'TAXI'){var urlCoverArt = TAXI;}
+        else if (artistRadio == 'JELENI UMIRU SAMI'){var urlCoverArt = JELENI_UMIRU_SAMI;}
+        else if (artistRadio == 'IZ NEKIH STARIH RAZLOGA'){var urlCoverArt = IZ_NEKIH_STARIH_RAZLOGA;}
+        else if (artistRadio == 'NE ZOVI MAMA DOKTORA'){var urlCoverArt = NE_ZOVI_MAMA_DOKTORA;}
+        else if (artistRadio == 'CRNO BIJELI SVIJET'){var urlCoverArt = CRNO_BIJELI_SVIJET;}
+        else if (artistRadio == 'KISE JESENJE'){var urlCoverArt = KISE_JESENJE;}
+        else if (artistRadio == 'KORAK OD SNA'){var urlCoverArt = KORAK_OD_SNA;}
+        else if (artistRadio == 'MA KOG ME BOGA ZA TEBE PITAJU'){var urlCoverArt = MA_KOG_ME_BOGA_ZA_TEBE_PITAJU;}
+        else if (artistRadio == 'MARINA'){var urlCoverArt = MAR_INA;}
+        else if (artistRadio == 'MI PLESEMO'){var urlCoverArt = MI_PLESEMO;}
+        else if (artistRadio == 'MOJ BIJELI LABUDE'){var urlCoverArt = MOJ_BIJELI_LABUDE;}
+        else if (artistRadio == 'S VREMENA NA VRIJEME'){var urlCoverArt = S_VREMENA_NA_VRIJEME;}
+        else if (artistRadio == 'UZALUD VAM TRUD SVIRACI'){var urlCoverArt = UZALUD_VAM_TRUD_SVIRACI;}
+        else if (artistRadio == 'ZAUSTAVITE ZEMLJU'){var urlCoverArt = ZAUSTAVITE_ZEMLJU;}
+        else if (artistRadio == 'AKO TRAZIS NEKOGA'){var urlCoverArt = AKO_TRAZIS_NEKOGA;}
+        else if (artistRadio == 'TU NOC KAD SI SE UDAVALA'){var urlCoverArt = TU_NOC_KAD_SI_SE_UDAVALA;}
+        else if (artistRadio == 'ZBOG MENE NE PLACI'){var urlCoverArt = ZBOG_MENE_NE_PLACI;}
+        else if (artistRadio == 'LOLA'){var urlCoverArt = LOLA;}
+        else if (artistRadio == 'TUZNA SU ZELENA POLJA'){var urlCoverArt = TUZNA_SU_ZELENA_POLJA;}
+        else if (artistRadio == 'JA VBOLIM SAMO SEBE'){var urlCoverArt = JA_VOLIM_SAMO_SEBE;}
+        else if (artistRadio == 'ANDREA'){var urlCoverArt = ANDREA;}
+        else if (artistRadio == 'AL KAPONE'){var urlCoverArt = AL_KAPONE;}
+        else if (artistRadio == 'AMSTERDAM'){var urlCoverArt = AMSTERDAM;}
+        else if (artistRadio == 'AVIONU SLOMICU TI KRILA'){var urlCoverArt = AVIONU_SLOMICU_TI_KRILA;}
+        else if (artistRadio == 'DOBRO JUTRO'){var urlCoverArt = DOBRO_JUTRO;}
+        else if (artistRadio == 'DVA DINARA DRUZE'){var urlCoverArt = DVA_DINARA_DRUZE;}
+        else if (artistRadio == 'GDE SI U OVOM GLUPOM HOTELU'){var urlCoverArt = GDE_SI_U_OVOM_GLUPOM_HOTELU;}
+        else if (artistRadio == 'JA JE GLEDAM KAKO SPAVA'){var urlCoverArt = JA_JE_GLEDAM_KAKO_SPAVA;}
+        else if (artistRadio == 'JA SAM SE LOZIO NA TEBE'){var urlCoverArt = JA_SAM_SE_LOZIO_NA_TEBE;}
+        else if (artistRadio == 'KAD HODAS'){var urlCoverArt = KAD_HODAS;}
+        else if (artistRadio == 'KAD SAM BIO MLAD'){var urlCoverArt = KAD_SAM_BIO_MLAD;}
+        else if (artistRadio == 'KAD PADNE NOC'){var urlCoverArt = KADA_PADNE_NOC;}
+        else if (artistRadio == 'KAKO JE LEPO BITI GLUP'){var urlCoverArt = KAKO_JE_LEPO_BITI_GLUP;}
+        else if (artistRadio == 'LUTKA SA NASLOVNE STRANE'){var urlCoverArt = LUTKA_SA_NASLOVNE_STRANE;}
+        else if (artistRadio == 'NA ZAPADU NISTA NOVO'){var urlCoverArt = NA_ZAPADU_NISTA_NOVO;}
+        else if (artistRadio == 'NEMOJ DA IDES MOJOM ULICOM'){var urlCoverArt = NEMOJ_DA_IDES_MOJOM_ULICOM;}
+        else if (artistRadio == 'NEMOJ SRECENO NEMOJ DANAS'){var urlCoverArt = NEMOJ_SRECO_NEMOJ_DANAS;}
+        else if (artistRadio == 'OSTACU SLOBODAN'){var urlCoverArt = OSTACU_SLOBODAN;}
+        else if (artistRadio == 'OSTANI DZUBRE DO KRAJA'){var urlCoverArt = OSTANI_DZUBRE_DO_KRAJA;}
+        else if (artistRadio == 'POGLEDAJ DOM SVOJ ANDJELE'){var urlCoverArt = POGLEDAJ_DOM_SVOJ_ANDJELE;}
+        else if (artistRadio == 'PRAVILA PRAVILA'){var urlCoverArt = PRAVILA_PRAVILA;}
+        else if (artistRadio == 'VOLIM VOLIM ZENE'){var urlCoverArt = VOLIM_VOLIM_ZENE;}
+        else if (artistRadio == 'COKOLADA'){var urlCoverArt = COKOLADA;}
+        else if (artistRadio == 'DEVOJKO MALA'){var urlCoverArt = DEVOJKO_MALA;}
+        else if (artistRadio == 'MALENA'){var urlCoverArt = MALENA;}
+        else if (artistRadio == 'ONA TO ZNA'){var urlCoverArt = ONA_TO_ZNA;}
+        else if (artistRadio == 'BACILA JE SVE NIZ RIJEKU'){var urlCoverArt = BACILA_JE_SVE_NIZ_RIJEKU;}
+        else if (artistRadio == 'BALADA'){var urlCoverArt = BALADA;}
+        else if (artistRadio == 'DA SAM JA NETKO'){var urlCoverArt = DA_SAM_JA_NETKO;}
+        else if (artistRadio == 'PREDAJ SE SRCE'){var urlCoverArt = PREDAJ_SE_SRCE}
+        else if (artistRadio == 'SANJAM'){var urlCoverArt = SANJAM;}
+        else if (artistRadio == 'SVE OVE GODINE'){var urlCoverArt = SVE_OVE_GODINE;}
+        else if (artistRadio == 'TI SI MI BILA NAJ NAJ'){var urlCoverArt = TI_SI_MI_BILA_NAJ_NAJ;}
+        else if (artistRadio == 'DANAS SAM LUDA'){var urlCoverArt = DANAS_SAM_LUDA;}
+        else if (artistRadio == 'GDJE DUNAV LJUBIO NEBO'){var urlCoverArt = GDJE_DUNAV_LJUBI_NEBO;}
+        else if (artistRadio == 'MAGLA'){var urlCoverArt = MAGLA;}
+        else if (artistRadio == 'NOCNA PTICA'){var urlCoverArt = NOCNA_PTICA;}
+        else if (artistRadio == 'O JEDNOJ MLADOSTI'){var urlCoverArt = O_JEDNOJ_MLADOSTI;}
+        else if (artistRadio == 'RUSILA SAM MOSTOVE FT DINO DVORNIK'){var urlCoverArt = RUSILA_SAM_MOSTOVE_FT_DINO_DVORNIK;}
+        else if (artistRadio == 'CAO AMORE FT VLADO KALEMBAR'){var urlCoverArt = CAO_AMORE_FT_VLADO_KALEMBAR;}
+        else if (artistRadio == 'POVEDI ME'){var urlCoverArt = POVEDI_ME;}
+        else if (artistRadio == 'ANA'){var urlCoverArt = ANA;}
+        else if (artistRadio == 'JA NISAM KOCKAR'){var urlCoverArt = JA_NISAM_KOCKAR;}
+        else if (artistRadio == 'ZAKUNI SE LJUAVI'){var urlCoverArt = ZAKUNI_SE_LJUBAVI;}
+        else if (artistRadio == 'CRNA DANA'){var urlCoverArt = CRNA_DAMA;}
+        else if (artistRadio == 'DAIRE'){var urlCoverArt = DAIRE;}
+        else if (artistRadio == 'KOKETA'){var urlCoverArt = KOKETA;}
+        else if (artistRadio == 'VOLIO SAM TANJU'){var urlCoverArt = VOLIO_SAM_TANJU;}
+        else if (artistRadio == 'S VREMENA NA VREME'){var urlCoverArt = S_VREMENA_NA_VREME;}
+        else if (artistRadio == 'KOFER LJUBAVI'){var urlCoverArt = KOFER_LJUBAVI;}
+        else if (artistRadio == 'RODJENI'){var urlCoverArt = RODJENI;}
+        else if (artistRadio == 'DALEKO'){var urlCoverArt = DALEKO;}
+        else if (artistRadio == 'DUSO MOJA'){var urlCoverArt = DUSO_MOJA;}
+        else if (artistRadio == 'JEDNE NOCI U DECEMBRU'){var urlCoverArt = JEDNE_NOCI_U_DECEMBRU;}
+        else if (artistRadio == 'NAPISI JEDNU LJBAVNU'){var urlCoverArt = NAPISI_JEDNU_LJUBAVNU;}
+        else if (artistRadio == 'NIJE HTELA'){var urlCoverArt = NIJE_HTJELA;}
+        else if (artistRadio == 'OVAKO NE MOGU DALJE'){var urlCoverArt = OVAKO_NE_MOGU_DALJE;}
+        else if (artistRadio == 'VRATIO SAM SE ZIVOTE'){var urlCoverArt = VRATIO_SAM_SE_ZIVOTE;}
+        else if (artistRadio == 'BOLJE DA SAM DRUGE LJUBIO'){var urlCoverArt = BOLJE_DA_SAM_DRUGE_LJUBIO;}
+        else if (artistRadio == 'COVEK OD MEDA'){var urlCoverArt = COVEK_OD_MEDA;}
+        else if (artistRadio == 'HAJDE DA SE VOLIMO'){var urlCoverArt = HAJDE_DA_SE_VOLIMO;}
+        else if (artistRadio == 'NA RASKRSCU'){var urlCoverArt = NA_RASKRSCU;}
+        else if (artistRadio == 'RATNE IGRE'){var urlCoverArt = RATNE_IGRE;}
+        else if (artistRadio == 'PLAVUSA'){var urlCoverArt = PLAVUSA;}
+        else if (artistRadio == 'ZBOG JEDNE DIVNE CRNE ZENE'){var urlCoverArt = ZBOG_JEDNE_DIVNE_CRNE_ZENE;}
+        else if (artistRadio == 'POKRENI ME'){var urlCoverArt = POKRENI_ME;}
+        else if (artistRadio == 'SIZIKA'){var urlCoverArt = SIZIKA;}
+        else if (artistRadio == 'AJDE AJDE JASMINA'){var urlCoverArt = AJDE_AJDE_JASMINA;}
+        else if (artistRadio == 'APRIL U BEOGRADU'){var urlCoverArt = APRIL_U_BEOGRADU;}
+        else if (artistRadio == 'CINI MI SE GRMI'){var urlCoverArt = CINI_MI_SE_GRMI;}
+        else if (artistRadio == 'DA TI KAZEM STA MI JE'){var urlCoverArt = DA_TI_KAZEM_STA_MI_JE;}
+        else if (artistRadio == 'GORI VATRA'){var urlCoverArt = GORI_VATRA;}
+        else if (artistRadio == 'KAD BI MOJA BILA'){var urlCoverArt = KAD_BI_MOJA_BILA;}
+        else if (artistRadio == 'MADJARICA'){var urlCoverArt = MADJARICA;}
+        else if (artistRadio == 'MALO POJACAJ RADIO'){var urlCoverArt = MALO_POJACAJ_RADIO;}
+        else if (artistRadio == 'PISACU JOJ PISMA DUGA'){var urlCoverArt = PISACU_JOJ_PISMA_DUGA;}
+        else if (artistRadio == 'RIJEKA SUZA I NA NJOJ LADJA'){var urlCoverArt = RIJEKA_SUZA_I_NA_NJOJ_LADJA;}
+        else if (artistRadio == 'RUSKA'){var urlCoverArt = RUSKA;}
+        else if (artistRadio == 'SINOC NISI BILA TU'){var urlCoverArt = SINOC_NISI_BILA_TU;}
+        else if (artistRadio == 'STA MI RADIS'){var urlCoverArt = STA_MI_RADIS;}
+        else if (artistRadio == 'ZIVIS U OBLACIMA'){var urlCoverArt = ZIVIS_U_OBLACIMA;}
+        
         else {
             var urlCoverArt = DEFAULT_COVER_ART;
         }
