@@ -758,7 +758,7 @@ function Page() {
         const CIJA_JE_ONO_ZVIJEZDA = 'img/izveduvaci/914.jpg';
         const E_DRAGA_DRAGA = 'img/izveduvaci/915.jpg';
         const GLAVO_LUDA = 'img/izveduvaci/916.jpg';
-        const JEDNA_ZIMA_SA KRISTINOM = 'img/izveduvaci/917.jpg';
+        const JEDNA_ZIMA_SA_KRISTINOM = 'img/izveduvaci/917.jpg';
         const MASLINASTO_ZELENA = 'img/izveduvaci/918.jpg';
         const MASTILO_I_VODA = 'img/izveduvaci/919.jpg';
         const NEGDJE_NA_DNU_SRCA = 'img/izveduvaci/920.jpg';
@@ -810,151 +810,6 @@ function Page() {
         const RUSKA_COKOLADA = 'img/izveduvaci/966.jpg';
         const JEDINO_MOJE = 'img/izveduvaci/967.jpg';
         const DOK_GITARA_SVIRA = 'img/izveduvaci/968.jpg';
-
-
-
-        //Ако не ја најде песната, тогаш изведувачот
-        const AERODROM = 'img/izveduvaci/212.jpg';
-        const ALEKSANDAR_MEZEK = 'img/izveduvaci/219.jpg';
-        const SLADJANA_MILOSEVIC = 'img/izveduvaci/220.jpg';
-        const ALEN_SLAVICA = 'img/izveduvaci/221.jpg';
-        const ALISA = 'img/izveduvaci/223.jpg';
-        const ALKA_VUJICA = 'img/izveduvaci/226.jpg';
-        const AMBASADORI = 'img/izveduvaci/228.jpg';
-        const ANIMATORI = 'img/izveduvaci/230.jpg';
-        const ARSEN_DEDIC = 'img/izveduvaci/231.jpg';
-        const ATOMSKO_SKLONISTE = 'img/izveduvaci/236.jpg';
-        const AZRA = 'img/izveduvaci/239.jpg';
-        const BABE = 'img/izveduvaci/246.jpg';
-        const BAJAGA = 'img/izveduvaci/248.jpg';
-        const BEBI_DOL = 'img/izveduvaci/280.jpg';
-        const BIJELO_DUGME = 'img/izveduvaci/286.jpg';
-        const BISERA_VELETANLIC = 'img/izveduvaci/326.jpg';
-        const BOMBAJ_STAMPA = 'img/izveduvaci/328.jpg';
-        const BORIS_NOVKOVIC = 'img/izveduvaci/329.jpg';
-        const CRVENA_JABUKA = 'img/izveduvaci/339.jpg';
-        const DADO_TOPIC = 'img/izveduvaci/361.jpg';
-        const DALEKA_OBALA = 'img/izveduvaci/363.jpg';
-        const DANIJELA_MARTINOVIC = 'img/izveduvaci/365.jpg';
-        const DARKO_DOMIJAN = 'img/izveduvaci/368.jpg';
-        const DENIS_DENIS = 'img/izveduvaci/372.jpg';
-        const DINO_DVORNIK = 'img/izveduvaci/377.jpg';
-        const DINO_MERLIN = 'img/izveduvaci/383.jpg';
-        const DIVLJE_JAGODE = 'img/izveduvaci/427.jpg';
-        const DJAVOLI = 'img/izveduvaci/433.jpg';
-        const DJORDJE_BALASEVIC = 'img/izveduvaci/439.jpg';
-        const DORIAN_GRAY = 'img/izveduvaci/466.jpg';
-        const DORIS_DRAGOVIC = 'img/izveduvaci/467.jpg';
-        const DRAZEN_ZECIC = 'img/izveduvaci/478.jpg';
-        const DRUGI_NACIN = 'img/izveduvaci/479.jpg';
-        const EKATERINA_VELIKA = 'img/izveduvaci/481.jpg';
-        const ELEKTRICNI_ORGAZAM = 'img/izveduvaci/486.jpg';
-        const FAMILIJA = 'img/izveduvaci/489.jpg';
-        const ELVIRA_RAHIC = 'img/izveduvaci/482.jpg';
-        const FILM = 'img/izveduvaci/493.jpg';
-        const FIT = 'img/izveduvaci/504.jpg';
-        const FRANO_LASIC = 'img/izveduvaci/507.jpg';
-        const GABI_NOVAK = 'img/izveduvaci/510.jpg';
-        const GIBONNI = 'img/izveduvaci/512.jpg';
-        const HARI_MATA_HARI = 'img/izveduvaci/517.jpg';
-        const LEB_I_SOL = 'img/izveduvaci/525.jpg';
-        const LEO_MARTIN = 'img/izveduvaci/529.jpg';
-        const LETECI_ODRED = 'img/izveduvaci/530.jpg';
-        const MAGAZIN = 'img/izveduvaci/531.jpg';
-        const MISO_KOVAC = 'img/izveduvaci/544.jpg';
-        const GALIJA = 'img/izveduvaci/552.jpg';
-        const GENERACIJA_5 = 'img/izveduvaci/560.jpg';
-        const GRUPA_220 = 'img/izveduvaci/561.jpg';
-        const IDOLI = 'img/izveduvaci/562.jpg';
-        const HARI_MATA_HARI = 'img/izveduvaci/564.jpg';
-        const MASSIMO_SAVIC = 'img/izveduvaci/576.jpg';
-        const MERI_CETINIC = 'img/izveduvaci/577.jpg';
-        const NEDA UKRADEN = 'img/izveduvaci/579.jpg';
-        const NEKI_TO_VOLE_VRUCE = 'img/izveduvaci/580.jpg';
-        const NENO BELAN = 'img/izveduvaci/582.jpg';
-        const NOVI_FOSILI = 'img/izveduvaci/586.jpg';
-        const OLIVER_MANDIC = 'img/izveduvaci/591.jpg';
-        const OKTOBAR_1864 = 'img/izveduvaci/601.jpg';
-        const OLIVER_DRAGOJEVIC = 'img/izveduvaci/605.jpg';
-        const MILADIN_SOBIC = 'img/izveduvaci/643.jpg';
-        const NENO_BELAN = 'img/izveduvaci/637.jpg';
-        const MARINA_PERAZIC = 'img/izveduvaci/638.jpg';
-        const METAK = 'img/izveduvaci/639.jpg';
-        const MIKI_JEVREMOVIC = 'img/izveduvaci/640.jpg';
-        const MINEA = 'img/izveduvaci/642.jpg';
-        const MIRZINO_JATO = 'img/izveduvaci/643.jpg';
-        const INDEXI = 'img/izveduvaci/647.jpg';
-        const JADRANKA_STOJAKOVIC = 'img/izveduvaci/648.jpg';
-        const JASNA_ZLOKIC = 'img/izveduvaci/651.jpg';
-        const OLIVER_MANDIC = 'img/izveduvaci/655.jpg';
-        const OSVAJACI = 'img/izveduvaci/658.jpg';
-        const PARNI_VALJAK = 'img/izveduvaci/663.jpg';
-        const HAUSTOR = 'img/izveduvaci/686.jpg';
-        const ITD_BAND = 'img/izveduvaci/692.jpg';
-        const JADRANKA_STOJAKOVIC = 'img/izveduvaci/693.jpg';
-        const PILOTI = 'img/izveduvaci/697.jpg';
-        const PLAVI_ORKESTAR = 'img/izveduvaci/704.jpg';
-        const POSLEDNJA_IGRA_LEPTIRA = 'img/izveduvaci/710.jpg';
-        const PSIHOMODO_POP = 'img/izveduvaci/712.jpg';
-        const PRO_ARTE = 'img/izveduvaci/713.jpg';
-        const SLADJANA_MILOSEVIC = 'img/izveduvaci/714.jpg';
-        const PRLJAVO_KAZALISTE = 'img/izveduvaci/724.jpg';
-        const REGATA = 'img/izveduvaci/741.jpg';
-        const RIBLJA_CORBA = 'img/izveduvaci/743.jpg';
-        const JOSIPA_LISAC = 'img/izveduvaci/774.jpg';
-        const IZOLDA = 'img/izveduvaci/781.jpg';
-        const SREBRENA_KRILA = 'img/izveduvaci/783.jpg';
-        const SMAK = 'img/izveduvaci/786.jpg';
-        const SRDJAN_JUL = 'img/izveduvaci/788.jpg';
-        const SREBRENA_KRILA = 'img/izveduvaci/789.jpg';
-        const SUNCANA_STRANA_ULICE = 'img/izveduvaci/790.jpg';
-        const KALIOPI = 'img/izveduvaci/791.jpg';
-        const KEMAL_MONTENO = 'img/izveduvaci/794.jpg';
-        const KERBER = 'img/izveduvaci/800.jpg';
-        const KICO_SLABINAC = 'img/izveduvaci/805.jpg';
-        const LAKI_PINGVINI = 'img/izveduvaci/807.jpg';
-        const ZDRAVKO_COLIC = 'img/izveduvaci/809.jpg';
-        const TIME = 'img/izveduvaci/823.jpg';
-        const FRKA = 'img/izveduvaci/825.jpg';
-        const TAJCI = 'img/izveduvaci/827.jpg';
-        const TEREZA_KESOVIJA = 'img/izveduvaci/831.jpg';
-        const TONY_MONTANO = 'img/izveduvaci/833.jpg';
-        const TUTTI_FRUTTI = 'img/izveduvaci/834.jpg';
-        const VAJTA = 'img/izveduvaci/836.jpg';
-        const VALENTINO = 'img/izveduvaci/838.jpg';
-        const VIDEOSEX = 'img/izveduvaci/840.jpg';
-        const YU_GRUPA = 'img/izveduvaci/842.jpg';
-        const VJESTICE = 'img/izveduvaci/843.jpg';
-        const ZANA = 'img/izveduvaci/844.jpg';
-        const YU_ROCK_MISIJA = 'img/izveduvaci/850.jpg';
-        const ZABRANJENO_PUSENJE = 'img/izveduvaci/851.jpg';
-        const SREBRNA_KRILA = 'img/izveduvaci/867.jpg';
-        const STIJENE = 'img/izveduvaci/868.jpg';
-        const TIFA = 'img/izveduvaci/870.jpg';
-        const VIKTORIJA = 'img/izveduvaci/877.jpg';
-        const VLADO_KALEMBER = 'img/izveduvaci/882.jpg';
-        const XENIA = 'img/izveduvaci/883.jpg';
-        const VAN_GOGH = 'img/izveduvaci/855.jpg';
-        const U_SKRIPCU = 'img/izveduvaci/893.jpg';
-        const ZELJKO_BEBEK = 'img/izveduvaci/925.jpg';
-        const ZLATKO_PEJAKOVIC = 'img/izveduvaci/931.jpg';
-        const ITD_BAND = 'img/izveduvaci/932.jpg';
-        const NEKI_TO_VOLE_VRUCE = 'img/izveduvaci/933.jpg';
-        const RIVA = 'img/izveduvaci/940.jpg';
-        const ARSEN_DEDIC = 'img/izveduvaci/941.jpg';
-        const JAKARTA = 'img/izveduvaci/943.jpg';
-        const DRAGAN_STOJNIC = 'img/izveduvaci/949.jpg';
-        const BOLERO = 'img/izveduvaci/950.jpg';
-        const OSMI_PUTNIK = 'img/izveduvaci/952.jpg';
-        const SEVERINA = 'img/izveduvaci/955.jpg';
-        const BOBA_STEFANOVIC = 'img/izveduvaci/956.jpg';
-        const IBRICA_JUSIC = 'img/izveduvaci/961.jpg';
-        const LETECI_ODRED = 'img/izveduvaci/963.jpg';
-        const MERLIN = 'img/izveduvaci/964.jpg';
-        const PEDJA_D_BOY = 'img/izveduvaci/965.jpg';
-        const POSLEDNJA_IGRA_LEPTIRA = 'img/izveduvaci/966.jpg';
-        const
-
 
         // треба да се стави препознавање на песна и промена во текст на DOM
 
@@ -2097,6 +1952,146 @@ function Page() {
         else if (artistRadio == 'SINOC NISI BILA TU'){var urlCoverArt = SINOC_NISI_BILA_TU;}
         else if (artistRadio == 'STA MI RADIS'){var urlCoverArt = STA_MI_RADIS;}
         else if (artistRadio == 'ZIVIS U OBLACIMA'){var urlCoverArt = ZIVIS_U_OBLACIMA;}
+        else if (artistRadio == 'DA LI ZNAS DA TE VOLIM'){var urlCoverArt = DA_LI_ZNAS_DA_TE_VOLIM;}
+        else if (artistRadio == 'MAKEDONIJA'){var urlCoverArt = MAKEDONIJA;}
+        else if (artistRadio == 'ZDENKA KOVACICEK'){var urlCoverArt = ZDENKA_KOVACICEK;}
+        else if (artistRadio == 'SEDAMNEST TI JE GODINA FT HARI MATA HARI'){var urlCoverArt = SEDAMNEST_TI_JE_GODINA_FT_HARI_MATA_HARI;}
+        else if (artistRadio == 'DVIJE ZVJEZDICE'){var urlCoverArt = DVIJE_ZVJEZDICE;}
+        else if (artistRadio == 'MILION GODINA'){var urlCoverArt = MILION_GODINA;}
+        else if (artistRadio == 'MOJ MALI JE OPASAN'){var urlCoverArt = MOJ_MALI_JE_OPASAN;}
+        else if (artistRadio == 'NEMA VISE LJUBAVI'){var urlCoverArt = NEMA_VISE_LJUBAVI;}
+        else if (artistRadio == 'MOJA POSLEDNJA I PRVA LJUBAVI'){var urlCoverArt = MOJA_POSLEDNJA_I_PRVA_LJUBAVI;}
+        else if (artistRadio == 'PRIJATELJI STARI GDJE STE'){var urlCoverArt = PRIJATELJI_STARI_GDJE_STE;}
+        else if (artistRadio == 'DESET GODINA'){var urlCoverArt = DESET_GODINA;}
+        else if (artistRadio == 'SRCE SRNE KOJA DRHTI'){var urlCoverArt = SRCE_SRNE_KOJA_DRHTI;}
+        else if (artistRadio == 'KRILA LEPTIRA'){var urlCoverArt = KRILA_LEPTIRA;}
+        else if (artistRadio == 'BILO MI JE LIJEPO S TOBOM'){var urlCoverArt = BILO_MI_JE_LIJEPO_S_TOBOM;}
+        else if (artistRadio == 'NE MOZE TO TAKO'){var urlCoverArt = NE_MOZE_TO_TAKO;}
+        else if (artistRadio == 'NE DAJ MI DA GOVORIM U SNU'){var urlCoverArt = NE_DAJ_MI_DA_GOVORIM_U_SNU;}
+        else if (artistRadio == 'OKA TVOJA DVA'){var urlCoverArt = OKA_TVOJA_DVA;}
+        else if (artistRadio == 'DETEKTIVSKA PRICA'){var urlCoverArt = DETEKTIVSKA_PRICA;}
+        else if (artistRadio == 'IZNENADI ME'){var urlCoverArt = IZNENADI_ME;}
+        else if (artistRadio == 'OD ZLATA JABUKA'){var urlCoverArt = OD_ZLATA_JABUKA;}
+        else if (artistRadio == 'TOTALNO DRUKCIJI OD DRUGIH'){var urlCoverArt = TOTALNO_DRUKCIJI_OD_DRUGIH;}
+        else if (artistRadio == 'VLAK'){var urlCoverArt = VLAK;}
+        else if (artistRadio == 'DUNAVOM JOS SIBAJU VETROVI'){var urlCoverArt = DUNAVOM_JOS_SIBAJU_VETROVI;}
+        else if (artistRadio == 'KOME SA RADUJES'){var urlCoverArt = KOME_SE_RADUJES;}
+        else if (artistRadio == 'CRNI LEPTIR'){var urlCoverArt = CRNI_LEPTIR;}
+        else if (artistRadio == 'MORNAR'){var urlCoverArt = MORNAR;}
+        else if (artistRadio == 'ZA MILION GODINA'){var urlCoverArt = ZA_MILION_GODINA;}
+        else if (artistRadio == 'BALADA O PISONJI I ZUGI'){var urlCoverArt = BALADA_O_PISONJI_I_ZUGI;}
+        else if (artistRadio == 'DJEVOJCICE KOJIMA MIRISE KOZA'){var urlCoverArt = DJEVOJCICE_KOJIMA_MIRISE_KOZA;}
+        else if (artistRadio == 'HADZIJA ILI BOS'){var urlCoverArt = HADZIJA_ILI_BOS;}
+        else if (artistRadio == 'JUGO 45'){var urlCoverArt = JUGO_45;}
+        else if (artistRadio == 'MOZES IMAT MOJE TIJELO'){var urlCoverArt = MOZES_IMAT_MOJE_TIJELO;}
+        else if (artistRadio == 'ZENICA BLUES'){var urlCoverArt = ZENICA_BLUES;}
+        else if (artistRadio == 'DODIRNI MI KOLENA'){var urlCoverArt = DODIRNI_MI_KOLENA;}
+        else if (artistRadio == 'JABUKE I VINO'){var urlCoverArt = JABUKE_I_VINO;}
+        else if (artistRadio == 'MAJSTOR ZA POLJUPCE'){var urlCoverArt = MAJSTOR_ZA_POLJUPCE;}
+        else if (artistRadio == 'MLADICU MOJ'){var urlCoverArt = MLADICU_MOJ;}
+        else if (artistRadio == 'NAJDE DA LUDUJEMO'){var urlCoverArt = HAJDE_DA_LUDUJEMO;}
+        else if (artistRadio == 'TI NEMAS PRAVA NA MENE'){var urlCoverArt = TI_NEMAS_PRAVA_NA_MENE;}
+        else if (artistRadio == 'NE BOJIM SE DRUGOVA TVOGA FRAJERA'){var urlCoverArt = NE_BOJIM_SE_DRUGOVA_TVOGA_FRAJERA;}
+        else if (artistRadio == 'STVARI LAGANE'){var urlCoverArt = STVARI_LAGANE;}
+        else if (artistRadio == 'TI ME IZLUDUJES'){var urlCoverArt = TI_ME_IZLUDUJES;}
+        else if (artistRadio == 'A TI SI MANGUP'){var urlCoverArt = A_TI_SI_MANGUP;}
+        else if (artistRadio == 'IMAM JEDAN SVIJET'){var urlCoverArt = IMA_JEDAN_SVIJET;}
+        else if (artistRadio == 'SVE JE NEOVICNO AKO TE VOLIM'){var urlCoverArt = SVE_JE_NEOBICNO_AKO_TE_VOLIM;}
+        else if (artistRadio == 'STIPU GATIBO'){var urlCoverArt = STIPU_GATIBO;}
+        else if (artistRadio == 'STO NE ZNAM GDE SI SAD'){var urlCoverArt = STO_NE_ZNAM_GDE_SI_SAD;}
+        else if (artistRadio == 'VOJAN POSTA'){var urlCoverArt = VOJAN_POSTA;}
+        else if (artistRadio == 'ZNAM I OSECAM'){var urlCoverArt = ZNAM_I_OSECAM;}
+        else if (artistRadio == 'OZENICES SE TI'){var urlCoverArt = OZENICES_SE_TI;}
+        else if (artistRadio == 'RUKUJU SE RUKUJU'){var urlCoverArt = RUKUJU_SE_RUKUJU;}
+        else if (artistRadio == 'ZANA VEJTE SNEGOVI'){var urlCoverArt = ZANA_VEJTE_SNEGOVI;}
+        else if (artistRadio == 'RAT I MIR'){var urlCoverArt = RAT_I_MIR;}
+        else if (artistRadio == 'ARIJA'){var urlCoverArt = ARIJA;}
+        else if (artistRadio == 'BARAKUDA'){var urlCoverArt = BARAKUDA;}
+        else if (artistRadio == 'DAJ NE PITAJ'){var urlCoverArt = DAJ_NE_PITAJ;}
+        else if (artistRadio == 'SAMO TERAJ TI PO SVOME'){var urlCoverArt = SAMO_TERAJ_TI_PO_SVOME;}
+        else if (artistRadio == 'VINO NA USNAMA'){var urlCoverArt = VINO_NA_USNAMA;}
+        else if (artistRadio == 'TROJE'){var urlCoverArt = TROJE;}
+        else if (artistRadio == 'NIKAD TE NIKO NECE VOLET KO JA'){var urlCoverArt = NIKAD_TE_NIKO_NECE_VOLJET_KO_JA;}
+        else if (artistRadio == 'NEKO TE IMA'){var urlCoverArt = NEKO_TE_IMA;}
+        else if (artistRadio == 'ZLATNA RIBICA'){var urlCoverArt = ZLATNA_RIBICA;}
+        else if (artistRadio == 'PONEKAD NOCU DOK SPAVA GRAD'){var urlCoverArt = PONEKAD_NOCU_DOK_SPAVA_GRAD;}
+        else if (artistRadio == 'IDU PTICE SELICE'){var urlCoverArt = IDU_PTICE_SELICE;}
+        else if (artistRadio == 'NE MOGU NE MOGU'){var urlCoverArt = NE_MOGU_NE_MOGU;}
+        else if (artistRadio == 'PILE MOJE'){var urlCoverArt = PILE_MOJE;}
+        else if (artistRadio == 'SAMO SKLOPI OKICE'){var urlCoverArt = SAMO_SKLOPI_OKICE;}
+        else if (artistRadio == 'VOLM TE JOS'){var urlCoverArt = VOLIM_TE_JOS;}
+        else if (artistRadio == 'IZGLEDA DA MI SMO SAMI'){var urlCoverArt = IZGLEDA_DA_MI_SMO_SAMI;}
+        else if (artistRadio == 'KOLIKO IMAS GODINA'){var urlCoverArt = KOLIKO_IMAS_GODINA;}
+        else if (artistRadio == 'NOVE GODINE'){var urlCoverArt = NOVE_GODINE;}
+        else if (artistRadio == 'O_JE'){var urlCoverArt = O_JE;}
+        else if (artistRadio == 'SIDJI DO REKE'){var urlCoverArt = SIDJI_DO_REKE;}
+        else if (artistRadio == 'JUZNJACI'){var urlCoverArt = JUZNJACI;}
+        else if (artistRadio == 'OKANO'){var urlCoverArt = OKANO;}
+        else if (artistRadio == 'PRAVA STVAR'){var urlCoverArt = PRAVA_STVAR;}
+        else if (artistRadio == 'TI MOZES SVE'){var urlCoverArt = TI_MOZES_SVE;}
+        else if (artistRadio == 'TI SI MI U KRVI'){var urlCoverArt = TI_SI_MI_U_KRVI;}
+        else if (artistRadio == 'AJDE AJDE IDI'){var urlCoverArt = AJDE_AJDE_IDI;}
+        else if (artistRadio == 'HOTEL BALKAN'){var urlCoverArt = HOTEL_BALKAN;}
+        else if (artistRadio == 'KRASIVA'){var urlCoverArt = KRASIVA;}
+        else if (artistRadio == 'NOC MI TE DUGUJE'){var urlCoverArt = NOC_MI_TE_DUGUJE;}
+        else if (artistRadio == 'OJ DEVOJKO SELEN VELEN'){var urlCoverArt = OJ_DEVOJKO_SELEN_VELEN;}
+        else if (artistRadio == 'JEDINA'){var urlCoverArt = JEDINA;}
+        else if (artistRadio == 'PJEVAM DANJU PJEVAM NOCU'){var urlCoverArt = PJEVAM_DANJU_PJEVAM_NOCU;}
+        else if (artistRadio == 'ZVAO SAM JE EMILI'){var urlCoverArt = ZVAO_SAM_JE_EMILI;}
+        else if (artistRadio == 'CAJE SUKARIJE'){var urlCoverArt = CAJE_SUKARIJE;}
+        else if (artistRadio == 'CIJA JE ONA ZVIJEZDA'){var urlCoverArt = CIJA_JE_ONO_ZVIJEZDA;}
+        else if (artistRadio == 'E DRAGA DRAGA'){var urlCoverArt = E_DRAGA_DRAGA;}
+        else if (artistRadio == 'GLAVO LUDA'){var urlCoverArt = GLAVO_LUDA;}
+        else if (artistRadio == 'JEDINA ZIMA SA KRISTINOM'){var urlCoverArt = JEDNA_ZIMA_SA_KRISTINOM;}
+        else if (artistRadio == 'MASLINASTO ZELENA'){var urlCoverArt = MASLINASTO_ZELENA;}
+        else if (artistRadio == 'MASTILO I VODA'){var urlCoverArt = MASTILO_I_VODA;}
+        else if (artistRadio == 'NEGDJE NE DNU SRCA'){var urlCoverArt = NEGDJE_NA_DNU_SRCA;}
+        else if (artistRadio == 'PRODUZI DALJE'){var urlCoverArt = PRODUZI_DALJE;}
+        else if (artistRadio == 'STANICA PODLUGOVI'){var urlCoverArt = STANICA_PODLUGOVI;}
+        else if (artistRadio == 'ZAGRLI ME'){var urlCoverArt = ZAGRLI_ME;}
+        else if (artistRadio == 'ZBOG TEBE'){var urlCoverArt = ZBOG_TEBE;}
+        else if (artistRadio == 'DA JE SRECE BILO'){var urlCoverArt = DA_JE_SRECE_BILO;}
+        else if (artistRadio == 'KUCKA NEVERNA'){var urlCoverArt = KUCKA_NEVERNA;}
+        else if (artistRadio == 'MENE TJERA NEKI VRAG'){var urlCoverArt = MENE_TJERA_NEKI_VRAG;}
+        else if (artistRadio == 'OPROSTI MI STO TE VOLIM'){var urlCoverArt = OPROSTI_MI_STO_TE_VOLIM;}
+        else if (artistRadio == 'TIJANA'){var urlCoverArt = TIJANA;}
+        else if (artistRadio == 'SINOC SAM POLA KAFANE POPIO'){var urlCoverArt = SINOC_SAM_POLA_KAFANE_POPIO;}
+        else if (artistRadio == 'OVE NOCI JEDNA ZENA'){var urlCoverArt = OVE_NOCI_JEDNA_ZENA;}
+        else if (artistRadio == 'GRADSKE CURE'){var urlCoverArt = GRADSKE_CURE;}
+        else if (artistRadio == 'KAKVA NOC'){var urlCoverArt = KAKVA_NOC;}
+        else if (artistRadio == 'DOBRE DEVOJKE'){var urlCoverArt = DOBRE_DEVOJKE;}
+        else if (artistRadio == 'BALKANSKA ULICA'){var urlCoverArt = BALKANSKA_ULICA;}
+        else if (artistRadio == 'KAKO SAM TE VOLJELA'){var urlCoverArt = KAKO_SAM_TE_VOLJELA;}
+        else if (artistRadio == 'STO SAM JA STO SI TI'){var urlCoverArt = STO_SAM_JA_STO_SI_TI;}
+        else if (artistRadio == 'RANO'){var urlCoverArt = RANO;}
+        else if (artistRadio == 'ROCK ME'){var urlCoverArt = ROCK_ME;}
+        else if (artistRadio == 'KUCA PORED MORA'){var urlCoverArt = KUCA_PORED_MORA;}
+        else if (artistRadio == 'PJEVALI SMO PJESME STARE'){var urlCoverArt = PJEVALI_SMO_PJESME_STARE;}
+        else if (artistRadio == 'POZOVI ME'){var urlCoverArt = POZOVI_ME;}
+        else if (artistRadio == 'IBRO DIRKA'){var urlCoverArt = IBRO_DIRKA;}
+        else if (artistRadio == 'MENI MAMA NE DA'){var urlCoverArt = MENI_MAMA_NE_DA;}
+        else if (artistRadio == 'RADOSTAN DAN'){var urlCoverArt = RADOSTAN_DAN;}
+        else if (artistRadio == 'MOZDA MOZDA'){var urlCoverArt = MOZDA_MOZDA;}
+        else if (artistRadio == 'LJUBAV NIJE ZA NAS'){var urlCoverArt = LJUBAV_NIJE_ZA_NAS;}
+        else if (artistRadio == 'JEDAN COVEK JEDNA ZENA'){var urlCoverArt = JEDAN_COVEK_JEDNA_ZENA;}
+        else if (artistRadio == 'GALEBOVI'){var urlCoverArt = GALEBOVI;}
+        else if (artistRadio == 'JELENA'){var urlCoverArt = JELENA;}
+        else if (artistRadio == 'GLASNO GLASNIJE'){var urlCoverArt = GLASNO_GLASNIJE;}
+        else if (artistRadio == 'OD SPLITA DO BEOGRADA FT DINO DVORNIK'){var urlCoverArt = OD_SPLITA_DO_BEOGRADA_FT_DINO_DVORNIK;}
+        else if (artistRadio == 'PISMO'){var urlCoverArt = PISMO;}
+        else if (artistRadio == 'DALMATINKA'){var urlCoverArt = DALMATINKA;}
+        else if (artistRadio == 'KAZI MI DA SI JOS UVEK SAMA'){var urlCoverArt = KAZU_MI_DA_SI_JOS_UVEK_SAMA;}
+        else if (artistRadio == 'PARISKI LOKAL'){var urlCoverArt = PARISKI_LOKAL;}
+        else if (artistRadio == 'AJSA'){var urlCoverArt = AJSA;}
+        else if (artistRadio == 'ELIZABET'){var urlCoverArt = ELIZABET;}
+        else if (artistRadio == 'CUVAJ SE'){var urlCoverArt = CUVAJ_SE;}
+        else if (artistRadio == 'JUBI SAN VASU KCER'){var urlCoverArt = JUBI_SAN_VASU_KCER;}
+        else if (artistRadio == 'JEDNU MLADOST IMAM'){var urlCoverArt = JEDNU_MLADOST_IMAM;}
+        else if (artistRadio == 'HARMONIKA'){var urlCoverArt = HARMONIKA;}
+        else if (artistRadio == 'JUGOSLOVENKA'){var urlCoverArt = JUGOSLOVENKA;}
+        else if (artistRadio == 'RUSKA COKOLADA'){var urlCoverArt = RUSKA_COKOLADA;}
+        else if (artistRadio == 'JEDINO MOJE'){var urlCoverArt = JEDINO_MOJE;}
+        else if (artistRadio == 'DOK GITARA SVIRA'){var urlCoverArt = DOK_GITARA_SVIRA;}
         
         else {
             var urlCoverArt = DEFAULT_COVER_ART;
