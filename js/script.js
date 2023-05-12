@@ -2606,10 +2606,12 @@ function Page() {
         const RUSKA_COKOLADA = 'img/izveduvaci/966.jpg';
         const JEDINO_MOJE = 'img/izveduvaci/967.jpg';
         const DOK_GITARA_SVIRA = 'img/izveduvaci/968.jpg';
+        const DADO_TOPIC = 'img/izveduvaci/361.jpg';
 
         
         
         if (artist == 'FRATELLO') {var urlCoverArt = FRATELLO;}
+            else if (artist == 'DADO TOPIC') {var urlCoverArt = DADO_TOPIC;}
             else if (artist == 'STAVI PRAVU STVAR') {var urlCoverArt = STAVI_PRAVU_STVAR;}
             else if (artist == 'STO SI U KAVU STAVILA') {var urlCoverArt = STO_SI_U_KAVU_STAVILA;}
             else if (artist == 'OBICNA LJUBAVNA PJESMA') {var urlCoverArt = OBICNA_LJUBAVNA_PJESMA;}
