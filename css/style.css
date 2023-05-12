@@ -17,14 +17,10 @@ body {
     min-width: 100%;
     min-height: 100%;
     position: fixed;
-    background: url('../img/pozadina.jpg') no-repeat;
+    background: url('../img/pozadina900.jpg') no-repeat;
     background-position: center;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 #bgCover {
@@ -43,13 +39,13 @@ body {
     min-width: 100%;
     min-height: 100%;
     position: absolute;
-    background: radial-gradient(rgba(0, 0, 0, .5) 20%, #000 85%);
+    background: radial-gradient(rgba(255, 255, 255, 0.5) 20%, #000 85%);
     z-index: 2;
 }
 
 .web-player {
     height: 100%;
-    color: #000;
+    color: #ffffff;
     padding: 5px;
     position: relative;
     z-index: 3;
@@ -59,9 +55,9 @@ body {
 .cover-album {
     max-width: 80%;
     margin: auto;
-    background: url('../img/bg-capa.jpg') no-repeat;
+    background: url('../img/ex-yu.jpg') no-repeat;
     background-size: cover;
-    border: 1px solid #383838;
+    border: 1px solid #ff0000;
     box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.4);
     transition: background-image 1s;
     margin-bottom: 15px;
@@ -129,13 +125,13 @@ body {
 }
 
 .vagalume a {
-    color: #000;
+    color: #ffffff;
     text-decoration: underline;
 }
 
 .lyrics {
     text-transform: uppercase;
-    color: #000;
+    color: #ffffff;
     font-size: 1em;
     font-weight: 400;
     outline: none;
@@ -154,7 +150,7 @@ body {
 
 .modal-content {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #000 !important;
+    color: #ffffff !important;
     border-radius: 0;
 }
 
@@ -179,7 +175,7 @@ input[type=range]::-webkit-slider-runnable-track {
     cursor: pointer;
     animate: 0.2s;
     box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    background: #000;
+    background: #ffffff;
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -187,7 +183,7 @@ input[type=range]::-webkit-slider-thumb {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background: #000;
+    background: #ff0000;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -8px;
@@ -267,7 +263,7 @@ input[type=range]::-ms-thumb {
     height: 95px;
     margin-right: 15px;
     float: left;
-    background: url('../img/bg-capa.jpg') no-repeat; /* историја за позадина на слика (ако нема) */
+    background: url('../img/ex-yu.jpg') no-repeat; /* историја за позадина на слика (ако нема) */
     background-size: cover;
     border: 1px solid #383838;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
