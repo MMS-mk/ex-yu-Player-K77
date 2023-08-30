@@ -9,7 +9,7 @@
 
 var settings = {
     'radio_name': 'Kanal77', 
-    'url_streaming': 'https://radiocnd.mms.mk/proxy/webradio1metadata',
+    'url_streaming': 'https://radiocnd.mms.mk/proxy/webradio1metadata/', // Секогаш мора да завршува со ЕБАН слаш /
     'url_streaming2': 'https://radiocnd.mms.mk/proxy/webradio1metadata/stream', 
     'streaming_type': 'shoutcast', 
     'api_key': 'cae6a7d0071ec26ee581082dc65eefdf', 

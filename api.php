@@ -115,7 +115,7 @@ if(!empty($url)) {
 		$url = implode("/", $url_explode);
 		$url = $url."/status-json.xsl";
 
-		// if cURL don't works, use file_get_contents
+		// Ако cURL не работи, кориси file_get_contents
 		// $curl = curl_init($url);
 		// curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 		// curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
@@ -154,7 +154,6 @@ if(!empty($url)) {
 		}
 
 		$track_history = file("player.log");
-		// remove first element from history
 		array_shift($track_history);
 
 		if($historic) {
@@ -172,10 +171,10 @@ if(!empty($url)) {
 			}
 		}
 	} else {
-		$array = ['error' => 'STREAM_TYPE parameter not found'];
+		$array = ['error' => 'STREAM_TYPE не се пронајдени'];
 	}
 } else {
-	$array = ['error' => 'URL parameter not found'];
+	$array = ['error' => 'URL параметрите не се пронајдени'];
 }
 
 $urlHost = $_SERVER['HTTP_HOST'];
